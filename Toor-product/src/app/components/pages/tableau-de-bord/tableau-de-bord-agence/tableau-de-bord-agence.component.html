@@ -1,0 +1,79 @@
+<div class="agency-dashboard-container">
+  <!-- Conteneur pour la sidebar et la top-nav -->
+  <div class="agency-nav-container">
+    <!-- Barre latérale -->
+    <div class="agency-sidebar" [class.collapsed]="isSidebarCollapsed">
+      <div class="agency-sidebar-header">
+        <i class="fas fa-bars" (click)="toggleSidebar()"></i>
+        <span *ngIf="!isSidebarCollapsed"></span>
+      </div>
+      <ul class="agency-sidebar-menu">
+        <li *ngFor="let item of menuItems">
+          <a [routerLink]="item.route">
+            <i [class]="item.icon"></i>
+            <span *ngIf="!isSidebarCollapsed">{{ item.label }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Top Navigation Bar -->
+    <div class="agency-top-nav">
+      <div class="agency-top-nav-left">
+        <!-- Ajoutez ici d'autres éléments si nécessaire -->
+      </div>
+      <div class="agency-top-nav-content">
+        <div class="agency-search-bar">
+          <input type="text" placeholder="Search..." />
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="agency-notifications">
+          <i class="fas fa-bell"></i>
+          <span class="agency-notification-count">3</span>
+        </div>
+        <div class="agency-user-profile">
+          <img
+            [src]="logoUrl || defaultLogoUrl"
+            alt="Logo de l'agence"
+            class="agency-user-logo"
+          />
+          <span *ngIf="concessionnaire">{{ concessionnaire.nomComplet }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenu principal -->
+  <div class="agency-main-content" [class.collapsed]="isSidebarCollapsed">
+    <div class="agency-dashboard-content">
+      <div class="agency-dashboard-cards">
+        <div class="agency-card" *ngFor="let stat of stats">
+          <div class="agency-card-header">
+            <span>{{ stat.title }}</span>
+            <i [class]="stat.icon"></i>
+          </div>
+          <div class="agency-card-body">
+            <span>{{ stat.value }}</span>
+            <span>{{ stat.change }}</span>
+          </div>
+        </div>
+
+        <div class="agency-dashboard-cards">
+          <div class="agency-card" *ngFor="let stat of stats">
+            <div class="agency-card-header">
+              <span>{{ stat.title }}</span>
+              <i [class]="stat.icon"></i>
+            </div>
+            <div class="agency-card-body">
+              <span>{{ stat.value }}</span>
+              <span>{{ stat.change }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="agency-step-content">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

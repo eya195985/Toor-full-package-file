@@ -1,0 +1,43 @@
+<section class="section-padding parallax our-team">
+    <div class="overlay overlay-bg-black"></div>
+    <div class="container">
+        <div class="section-header">
+            <div class="section-heading">
+                <h3 class="text-custom-white">Our Team</h3>
+                <div class="section-description">
+                    <p class="text-custom-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ngx-slick-carousel [config]="settings" class="team-slider arrow-layout-2 row">
+                    <!-- Data -->
+                    <div ngxSlickItem class="slide-item col-12" *ngFor="let item of team">
+                        <div class="team-block p-relative">
+                            <div class="inner-box bx-wrapper">
+                                <div class="image animate-img">
+                                    <img [src]="item.image" [alt]="item.name" class="full-width">
+                                </div>
+                                <div class="lower-content p-relative text-center">
+                                    <div class="icon-box fs-18 text-custom-white">
+                                        <span class="far fa-heart"></span>
+                                    </div>
+                                    <h4 class="text-custom-black fw-600 fs-20">{{item.name}}</h4>
+                                    <p class="designation text-light-dark">{{item.post}}</p>
+                                </div>
+                                <ul class="team-social-box custom">
+                                    <li *ngFor="let social of item.social">
+                                        <a routerLink="{{social.link}}" class="fs-16" [ngClass]="social.icon"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Data -->
+                </ngx-slick-carousel>
+            </div>
+        </div>
+    </div>
+</section>

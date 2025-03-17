@@ -1,0 +1,26 @@
+<div class="why-choose-box mb-md-80">
+    <div class="section-header">
+        <div class="section-heading">
+            <h3 class="text-custom-black">Why Choose Us</h3>
+            <div class="section-description">
+            <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            </div>
+        </div>
+    </div>
+    <div class="why-choose-wrapper">
+        <div class="why-choose-img p-relative">
+            <div class="row clearfix">
+                <!-- Data -->
+                <div class="col-6" *ngFor="let item of whyus">
+                    <div class="choose-item animate-img">
+                    <img [src]="item.image" [alt]="item.title" class="full-width">
+                        <div class="text-wrapper">
+                            <h6 class="text-custom-white">{{item.title}}</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- Data -->
+            </div>
+        </div>
+    </div>
+</div>

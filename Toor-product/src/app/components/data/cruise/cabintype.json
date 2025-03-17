@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Inside"
+    },
+    {
+        "id":2,
+        "title":"Oceanview"
+    },
+    {
+        "id":3,
+        "title":"Balcony"
+    },
+    {
+        "id":4,
+        "title":"Seats"
+    },
+    {
+        "id":5,
+        "title":"Junior Suite"
+    },
+    {
+        "id":6,
+        "title":"Suite W/ Balcony"
+    },
+    {
+        "id":7,
+        "title":"Outside"
+    }
+]

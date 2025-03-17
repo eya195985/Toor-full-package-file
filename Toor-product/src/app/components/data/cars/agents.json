@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Fox Rent A Car"
+    },
+    {
+        "id":2,
+        "title":"Payless"
+    },
+    {
+        "id":3,
+        "title":"EZ Rent A Car"
+    },
+    {
+        "id":4,
+        "title":"Thrifty"
+    },
+    {
+        "id":5,
+        "title":"Enterprise"
+    },
+    {
+        "id":6,
+        "title":"Alamo"
+    },
+    {
+        "id":7,
+        "title":"Dollar"
+    }
+]

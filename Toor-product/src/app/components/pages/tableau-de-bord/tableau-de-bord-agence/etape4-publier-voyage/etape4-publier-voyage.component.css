@@ -1,0 +1,102 @@
+/* Conteneur principal */
+.etape4-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Titre du formulaire */
+.etape4-form-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Labels des champs */
+.etape4-form-label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 0.5rem;
+}
+
+/* Champs de saisie */
+.etape4-form-input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #2c3e50;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.etape4-form-input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+/* Boutons de navigation */
+.etape4-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.etape4-form-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.etape4-form-button.precedent {
+  background-color: #95a5a6;
+}
+
+.etape4-form-button.suivant {
+  background-color: #2ecc71;
+}
+
+.etape4-form-button:hover {
+  transform: translateY(-2px);
+}
+
+.etape4-form-button:active {
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .etape4-form-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .etape4-form-title {
+    font-size: 1.5rem;
+  }
+
+  .etape4-form-input {
+    padding: 0.5rem;
+  }
+
+  .etape4-form-button {
+    padding: 0.5rem 1rem;
+  }
+}

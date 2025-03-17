@@ -1,0 +1,21 @@
+<div class="verification-code-container">
+  <h2>Vérification de l'email</h2>
+  <p>Un code de vérification a été envoyé à votre email. Veuillez le saisir ci-dessous.</p>
+  <form (ngSubmit)="onSubmitVerificationCode()">
+    <div class="form-group">
+      <label for="verificationCode">Code de vérification :</label>
+      <input
+        type="text"
+        id="verificationCode"
+        [(ngModel)]="verificationCode"
+        name="verificationCode"
+        required
+        placeholder="Saisissez le code"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">Valider</button>
+  </form>
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+</div>

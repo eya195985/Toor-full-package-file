@@ -1,0 +1,171 @@
+/* Styles globaux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.section-padding {
+    padding: 2rem;
+}
+
+/* Styles pour le tableau */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+/* En-tête du tableau en BLEU PÉTROLE TRANSPARENT */
+.custom-thead {
+    background-color: #1e293b; /* Bleu pétrole transparent */
+}
+
+/* Titres du tableau en BLEU CLAIR */
+.custom-thead th {
+    background-color: white; /* Bleu clair */
+    color: #1e293b;
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Styles pour les lignes */
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table tbody td {
+    padding: 1rem;
+}
+
+/* Suppression des bordures du tableau */
+.table tbody tr td {
+    border: none;
+}
+
+/* Styles pour les avatars */
+.avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #dee2e6;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styles pour les badges */
+/* Styles pour les badges */
+.badge-status {
+    padding: 4px 10px; /* Taille plus petite */
+    font-size: 0.75rem; /* Taille de police plus petite */
+    font-weight: 500;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.badge-warning {
+    background-color: #ffc107; /* Jaune plus foncé */
+    color: #856404;
+    border: 1px solid #ffc107;
+}
+
+/* Styles pour les boutons */
+.btn {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-info {
+    background-color: #b2ebf2;
+    color: #007b8f;
+}
+
+.btn-success {
+    background-color: #c3e6cb;
+    color: #155724;
+}
+
+.btn-danger {
+    background-color: #f5c6cb;
+    color: #721c24;
+}
+
+.btn-warning {
+    background-color: #ffeeba;
+    color: #856404;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Styles pour la carte */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.card-header {
+    background: none;
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+/* Pagination */
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+
+
+.pagination .page-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.pagination .page-item a {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #007bff;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.pagination .page-item.active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination .page-item.disabled a {
+    pointer-events: none;
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+.rounded-circle {
+  border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title":"Passenger Quantity"
+    },
+    {
+        "id":2,
+        "title":"Satellite Navigation"
+    },
+    {
+        "id":3,
+        "title":"Air Conditioning"
+    },
+    {
+        "id":4,
+        "title":"Doors"
+    },
+    {
+        "id":5,
+        "title":"Diesel Vehicle"
+    }
+]

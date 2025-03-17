@@ -1,0 +1,64 @@
+<div class="etape4-form-container" *ngIf="form">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <!-- Champs d'entrée pour chaque classe de vol -->
+    <ng-container *ngFor="let classe of classesVolList">
+      <div class="etape4-form-group">
+        <label [attr.for]="'frais_' + classe.idClasseVoyage" class="etape4-form-label">Frais pour Classe {{ classe.nomClasse }}</label>
+        <input
+          [attr.id]="'frais_' + classe.idClasseVoyage"
+          type="number"
+          [formControlName]="'frais_' + classe.idClasseVoyage"
+          class="etape4-form-input"
+          required
+        />
+      </div>
+    </ng-container>
+
+    <!-- Champs d'entrée pour les frais supplémentaires des services -->
+    <div class="etape4-form-group">
+      <label class="etape4-form-label">Frais Hôtel</label>
+      <div *ngFor="let hotel of hotelTypes">
+        <label>{{ hotel.categorie }}</label>
+        <input
+          [attr.id]="'fraisHotel_' + hotel.idTypeHotel"
+          type="number"
+          [formControlName]="'fraisHotel_' + hotel.idTypeHotel"
+          class="etape4-form-input"
+          required
+        />
+      </div>
+    </div>
+    <div class="etape4-form-group">
+      <label class="etape4-form-label">Frais Transport</label>
+      <div *ngFor="let transport of typeTransports">
+        <label>{{ transport.nomType }}</label>
+        <input
+          [attr.id]="'fraisTransport_' + transport.idTypeTransport"
+          type="number"
+          [formControlName]="'fraisTransport_' + transport.idTypeTransport"
+          class="etape4-form-input"
+          required
+        />
+      </div>
+    </div>
+    <div class="etape4-form-group">
+      <label class="etape4-form-label">Frais Nourriture</label>
+      <div *ngFor="let nourriture of nourritureTypes">
+        <label>{{ nourriture.nomType }}</label>
+        <input
+          [attr.id]="'fraisNourriture_' + nourriture.idTypeNourriture"
+          type="number"
+          [formControlName]="'fraisNourriture_' + nourriture.idTypeNourriture"
+          class="etape4-form-input"
+          required
+        />
+      </div>
+    </div>
+
+    <!-- Boutons de navigation -->
+    <div class="etape4-button-container">
+      <button type="button" class="etape4-form-button precedent" (click)="onPrecedent()">Précédent</button>
+      <button type="submit" class="etape4-form-button suivant" >Suivant</button>
+    </div>
+  </form>
+</div>

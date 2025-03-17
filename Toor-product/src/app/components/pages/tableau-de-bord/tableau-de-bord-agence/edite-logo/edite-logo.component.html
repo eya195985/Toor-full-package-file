@@ -1,0 +1,59 @@
+<!-- Formulaire de téléchargement de logo -->
+<form class="mb-md-80" [formGroup]="contactForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+  <fieldset class="form-fieldset">
+
+    <h5 class="text-custom-black mt-4">Informations sur le logo</h5>
+
+    <!-- Aperçu du logo au-dessus du champ de téléchargement -->
+    <div class="col-md-12">
+      <div class="user-image-container">
+        <img
+          [src]="imagePreview || 'assets/images/avatar.png'"
+          alt="Aperçu du logo"
+          class="user-image"
+          [ngClass]="{ 'default-logo': !imagePreview }"
+        />
+        <!-- Message si aucun logo n'est disponible -->
+        <div *ngIf="!imagePreview" class="text-light-dark text-center mt-3">
+          Aucun logo disponible.
+        </div>
+      </div>
+    </div>
+
+    <!-- Champ de téléchargement de fichier -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <input
+          type="file"
+          id="logo"
+          formControlName="logo"
+          (change)="onFileSelected($event)"
+          class="form-control form-control-custom"
+          accept="image/*"
+          required
+        />
+        <!-- Message d'erreur si le champ est invalide -->
+        <div *ngIf="contactForm.get('logo')?.invalid && contactForm.get('logo')?.touched" class="text-danger">
+          Veuillez sélectionner un logo.
+        </div>
+      </div>
+    </div>
+
+    <!-- Bouton de soumission -->
+    <div class="col-md-12">
+      <button type="submit" class="btn-first btn-submit" [disabled]="contactForm.invalid">
+        Mettre à jour
+      </button>
+    </div>
+
+    <!-- Messages de succès et d'erreur -->
+    <div class="col-md-12">
+      <div *ngIf="successMessage" class="alert alert-success mt-3">
+        {{ successMessage }}
+      </div>
+      <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+        {{ errorMessage }}
+      </div>
+    </div>
+  </fieldset>
+</form>

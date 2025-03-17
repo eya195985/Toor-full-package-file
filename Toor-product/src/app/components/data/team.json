@@ -1,0 +1,147 @@
+[
+    {
+        "id":1,
+        "name":"Jhon",
+        "image":"assets/images/agent-1.jpg",
+        "post":"Travel Agent",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-youtube",
+                "title":"Youtube",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-linkedin",
+                "title":"LinkedIn",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name":"Eachann Mack",
+        "image":"assets/images/agent-2.jpg",
+        "post":"Travel Agent",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-youtube",
+                "title":"Youtube",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-linkedin",
+                "title":"LinkedIn",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "name":"Mikal clark",
+        "image":"assets/images/agent-3.jpg",
+        "post":"CEO",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-youtube",
+                "title":"Youtube",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-linkedin",
+                "title":"LinkedIn",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"Jhon Jha",
+        "image":"assets/images/agent-4.jpg",
+        "post":"Travel Driver",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-youtube",
+                "title":"Youtube",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-linkedin",
+                "title":"LinkedIn",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/"
+            }
+        ]
+    },
+    {
+        "id":5,
+        "name":"Eachann Jhon",
+        "image":"assets/images/agent-2.jpg",
+        "post":"Travel Agent",
+        "shorttext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-youtube",
+                "title":"Youtube",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-linkedin",
+                "title":"LinkedIn",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "link":"/"
+            },
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "link":"/"
+            }
+        ]
+    }
+]

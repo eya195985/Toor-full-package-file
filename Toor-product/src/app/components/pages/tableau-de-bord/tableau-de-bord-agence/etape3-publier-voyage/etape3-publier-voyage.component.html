@@ -1,0 +1,110 @@
+<div class="etape3-form-container">
+  <!-- Barre de progression -->
+  <app-progression-bar [progression]="80" [etapeActuelle]="4"></app-progression-bar>
+
+  <h2 class="etape3-form-title">Informations Itinéraire</h2>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <!-- Conteneur pour les jours -->
+    <div formArrayName="jours">
+      <div *ngFor="let day of jours.controls; let i = index" [formGroupName]="i" class="etape3-day-container">
+        <h3 class="etape3-day-title">Jour {{ i + 1 }}</h3>
+
+        <!-- Destination -->
+        <div class="etape3-form-group">
+          <label for="destination{{ i }}" class="etape3-form-label">Destination</label>
+          <select id="destination{{ i }}" formControlName="destination" class="etape3-form-input" required>
+            <option value="" disabled selected>Sélectionnez une région</option>
+            <option *ngFor="let region of regions" [value]="region.nomRegion">{{ region.nomRegion }}</option>
+          </select>
+        </div>
+
+        <!-- Activité du jour -->
+        <div class="etape3-form-group">
+          <label for="activite{{ i }}" class="etape3-form-label">Activité du jour</label>
+          <textarea
+            id="activite{{ i }}"
+            formControlName="activite"
+            class="etape3-form-input"
+            placeholder="Ex: Visite de la Tour Eiffel"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <div class="etape3-form-group">
+          <label for="transport{{ i }}" class="etape3-form-label">Transport</label>
+          <div class="etape3-form-input etape3-checkbox-group">
+            <label *ngFor="let transport of typeTransports" class="etape3-checkbox-container">
+              <input type="checkbox" [value]="transport.idTypeTransport" (change)="onTransportChange(i, transport.idTypeTransport, $event)">
+              <span class="etape3-checkbox-label">{{ transport.nomType }}</span>
+            </label>
+          </div>
+        </div>
+
+
+        <!-- Hôtel -->
+        <div class="etape3-form-group">
+          <label for="hotelType{{ i }}" class="etape3-form-label">Type d'hôtel</label>
+          <select id="hotelType{{ i }}" formControlName="hotelType" class="etape3-form-input" required>
+            <option value="" disabled selected>Sélectionnez un type d'hôtel</option>
+            <option *ngFor="let hotelType of hotelTypes" [value]="hotelType.idTypeHotel">
+              {{ hotelType.categorie }}
+            </option>
+          </select>
+        </div>
+
+        <div class="etape3-form-group">
+          <label for="hotelName{{ i }}" class="etape3-form-label">Nom de l'hôtel</label>
+          <input
+            id="hotelName{{ i }}"
+            type="text"
+            formControlName="hotelName"
+            class="etape3-form-input"
+            placeholder="Ex: Hôtel Ritz"
+            required
+          />
+        </div>
+
+        <!-- Nourriture -->
+        <div class="etape3-form-group">
+          <label class="etape3-form-label">Nourriture</label>
+          <select formControlName="nourriture" class="etape3-form-input" multiple>
+            <option *ngFor="let nourriture of nourritures" [value]="nourriture.idTypeNourriture">
+              {{ nourriture.nomType }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Services supplémentaires -->
+        <div class="etape3-form-group">
+          <label class="etape3-form-label">Services supplémentaires</label>
+          <div formArrayName="services">
+            <div *ngFor="let service of getServices(i).controls; let j = index" class="etape3-service-container">
+              <input
+                type="text"
+                [formControlName]="j"
+                class="etape3-form-input"
+                placeholder="Ex: des séances de yoga"
+              />
+              <button type="button" class="etape3-remove-button" (click)="removeService(i, j)">×</button>
+            </div>
+          </div>
+          <button type="button" class="etape3-add-service-button" (click)="addService(i)">
+            <span class="etape3-icon">+</span> Ajouter un service
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boutons de navigation -->
+    <div class="etape3-button-container">
+      <button type="button" class="etape3-form-button precedent" (click)="onPrecedent()">Précédent</button>
+      <button type="submit" class="etape3-form-button suivant">Suivant</button>
+    </div>
+  </form>
+
+  <!-- Affichage des messages d'erreur -->
+  <div *ngIf="errorMessage" class="etape3-error-message">
+    {{ errorMessage }}
+  </div>
+</div>

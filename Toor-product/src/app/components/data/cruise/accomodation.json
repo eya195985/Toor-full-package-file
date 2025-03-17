@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "icon": "fas fa-coffee",
+        "title": "Coffee"
+    },
+    {
+        "id":2,
+        "icon": "fas fa-concierge-bell",
+        "title": "Comp. Breakfast"
+    }
+]

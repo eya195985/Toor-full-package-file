@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title":"Inflight Dining"
+    },
+    {
+        "id":2,
+        "title":"Music"
+    },
+    {
+        "id":3,
+        "title":"Sky Shopping"
+    },
+    {
+        "id":4,
+        "title":"Wi-Fi"
+    },
+    {
+        "id":5,
+        "title":"Seats & Cabin"
+    }
+]

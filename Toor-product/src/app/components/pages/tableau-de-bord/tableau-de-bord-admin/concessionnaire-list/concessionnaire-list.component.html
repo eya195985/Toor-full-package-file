@@ -1,0 +1,53 @@
+<div class="filter-options">
+  <label for="status">Filtrer par statut:</label>
+  <select id="status" [(ngModel)]="selectedStatus" (change)="applyFilter()">
+    <option value="all">Tous</option>
+    <option value="en attente">En attente</option>
+    <option value="Accepter">Accepter</option>
+    <option value="Rejeter">Rejeter</option>
+    <option value="Bloquer">Bloquer</option>
+  </select>
+</div>
+
+<table class="table">
+  <thead class="custom-thead">
+  <tr>
+    <th>Nom du gérant</th>
+    <th>Description</th>
+    <th>Statut</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let concessionnaire of filteredConcessionnaires">
+    <td>{{ concessionnaire.nomGerant }}</td>
+    <td>{{ concessionnaire.description }}</td>
+    <td>
+      <!-- Utilisation de ngClass pour appliquer les badges en fonction du statut -->
+      <span [ngClass]="{
+          'badge-warning': concessionnaire.statut === 'en attente',
+          'badge-success': concessionnaire.statut === 'Accepter',
+          'badge-danger': concessionnaire.statut === 'Rejeter',
+          'badge-secondary': concessionnaire.statut === 'Bloquer'
+        }">
+           {{ concessionnaire.utilisateur?.statut?.statut || 'Statut inconnu' }}
+        </span>
+    </td>
+
+    <td>
+      <button class="btn btn-info btn-sm" (click)="consulterDetails(concessionnaire.idConcessionnaire)">
+        Consulter les détails
+      </button>
+      <button class="btn btn-success btn-sm" (click)="updateStatut(concessionnaire, 'Accepter')">
+        ✔ Accepter
+      </button>
+      <button class="btn btn-danger btn-sm" (click)="updateStatut(concessionnaire, 'Rejeter')">
+        ✖ Rejeter
+      </button>
+      <button class="btn btn-warning btn-sm" (click)="updateStatut(concessionnaire, 'Bloquer')">
+        ⚠ Bloquer
+      </button>
+    </td>
+  </tr>
+  </tbody>
+</table>

@@ -1,0 +1,112 @@
+[
+    {
+        "id":1,
+        "icon": "fas fa-wifi",
+        "title": "Wi-fi"
+    },
+    {
+        "id":2,
+        "icon": "fas fa-swimming-pool",
+        "title": "Swimming pool"
+    },
+    {
+        "id":3,
+        "icon": "fas fa-tv",
+        "title": "Television"
+    },
+    {
+        "id":4,
+        "icon": "fas fa-wind",
+        "title": "Air Conditioning"
+    },
+    {
+        "id":5,
+        "icon": "fas fa-dumbbell",
+        "title": "Fitness Facility"
+    },
+    {
+        "id":6,
+        "icon": "fas fa-refrigerator",
+        "title": "Fridge"
+    },
+    {
+        "id":7,
+        "icon": "fas fa-wine-glass-alt",
+        "title": "Wine Bar"
+    },
+    {
+        "id":8,
+        "icon": "fas fa-smoking",
+        "title": "Smoking Allowed"
+    },
+    {
+        "id":9,
+        "icon": "fas fa-camera",
+        "title": "Entertainment"
+    },
+    {
+        "id":10,
+        "icon": "fas fa-wallet",
+        "title": "Secure Vault"
+    },
+    {
+        "id":11,
+        "icon": "fas fa-car",
+        "title": "Pick and Drop"
+    },
+    {
+        "id":12,
+        "icon": "fas fa-male",
+        "title": "Room Service"
+    },
+    {
+        "id":13,
+        "icon": "fas fa-dog-leashed",
+        "title": "Pets Allowed"
+    },
+    {
+        "id":14,
+        "icon": "fas fa-basketball-ball",
+        "title": "Play Place"
+    },
+    {
+        "id":15,
+        "icon": "fas fa-parking",
+        "title": "Free Parking"
+    },
+    {
+        "id":16,
+        "icon": "fas fa-hotel",
+        "title": "Confrence room"
+    },
+    {
+        "id":17,
+        "icon": "fas fa-fire-extinguisher",
+        "title": "Fire Place"
+    },
+    {
+        "id":18,
+        "icon": "fas fa-wheelchair",
+        "title": "Handicap Accessible"
+    },
+    {
+        "id":19,
+        "icon": "fas fa-male",
+        "title": "Doorman"
+    },
+    {
+        "id":20,
+        "icon": "fas fa-bath",
+        "title": "Hot Tub"
+    },
+    {
+        "id":21,
+        "icon": "fas fa-cog",
+        "title": "Elevator In Building"
+    },
+    {
+        "id":22,
+        "icon": "fas fa-gifts",
+        "title": "Suitable for Events"
+    }
+]

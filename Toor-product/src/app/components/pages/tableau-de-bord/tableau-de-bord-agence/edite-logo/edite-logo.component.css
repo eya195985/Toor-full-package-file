@@ -1,0 +1,33 @@
+/* Style pour le conteneur principal */
+.section-padding.contact-form-map {
+  margin-top: 100px; /* Ajouter un espace en bas */
+  margin-bottom: 30px; /* Ajouter un espace en bas */
+  border: 1px solid #ddd; /* Bordure grise */
+  border-radius: 8px; /* Coins arrondis */
+  padding: 20px; /* Espacement interne */
+  width: 100%; /* Largeur de 100% */
+  box-sizing: border-box; /* Inclure la bordure dans la largeur */
+  background-color: #ffffff; /* Fond blanc */
+}
+
+/* Style pour le conteneur de l'image avec cadre blanc */
+.user-image-container {
+  display: flex;
+  justify-content: flex-start; /* Aligner l'image à gauche */
+  align-items: flex-start; /* Aligner verticalement au début */
+  margin-bottom: 20px; /* Espacement sous l'aperçu du logo */
+  padding: 10px; /* Ajouter de l'espace autour de l'image */
+  background-color: #fff; /* Fond blanc autour de l'image */
+  border: 2px solid #ddd; /* Bordure grise autour de l'image */
+  border-radius: 8px; /* Coins arrondis autour de l'image */
+}
+
+/* Style pour l'image de l'utilisateur agrandie */
+.user-image {
+  width: 150px; /* Taille de l'image plus grande */
+  height: 150px; /* Taille de l'image plus grande */
+  border-radius: 50%; /* Rendre l'image ronde */
+  border: 2px solid #ddd; /* Bordure légère */
+  object-fit: cover; /* Assurer que l'image conserve ses proportions */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}

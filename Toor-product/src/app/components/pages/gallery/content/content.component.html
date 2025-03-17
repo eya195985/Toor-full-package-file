@@ -1,0 +1,31 @@
+<section class="section-padding bg-light-white gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="tabs filter-gallery">
+                    <ul class="custom-flex nav nav-tabs mb-xl-40">
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link" [ngClass]="activeItem === 0 ? 'active' : ''"
+                                (click)="reset(0)">All</a>
+                        </li>
+                        <li class="nav-item" *ngFor="let item of category; let i = index">
+                            <a href="javascript:void(0)" class="nav-link" [ngClass]="activeItem === 1+i ? 'active' : ''"
+                                (click)="filterItemsByCategory(item, 1+i)">{{item.title}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row gallery-grid">
+                    <!-- Data -->
+                    <div class="col-lg-4 col-md-6 filter-box car-gallery" *ngFor="let item of filteredItems">
+                        <div class="gallery-item mb-xl-30">
+                            <a [href]="item.image" class="popup">
+                                <img [src]="item.image" class="image-fit" alt="img">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Data -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

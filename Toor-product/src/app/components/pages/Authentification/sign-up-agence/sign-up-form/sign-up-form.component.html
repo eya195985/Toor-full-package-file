@@ -1,0 +1,292 @@
+<div class="tab-inner">
+  <div class="row">
+    <div class="col-lg-8">
+
+      <form class="row mb-md-80" (ngSubmit)="onSignup()" enctype="multipart/form-data">
+        <!-- Section 1 : Informations personnelles -->
+        <div class="col-12">
+          <h5 class="text-custom-black">Agency Information</h5>
+          <div class="row">
+            <!-- Nom complet -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Full Name</label>
+                <input
+                  type="text"
+                  [(ngModel)]="nomComplet"
+                  name="nomComplet"
+                  class="form-control form-control-custom"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Email</label>
+                <input
+                  type="email"
+                  [(ngModel)]="email"
+                  name="email"
+                  class="form-control form-control-custom"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Téléphone -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Phone Number</label>
+                <input
+                  type="text"
+                  [(ngModel)]="telephone"
+                  name="telephone"
+                  class="form-control form-control-custom"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Adresse -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Address</label>
+                <input
+                  type="text"
+                  [(ngModel)]="adresse"
+                  name="adresse"
+                  class="form-control form-control-custom"
+                  placeholder="Address"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Pays -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Country</label>
+                <input
+                  type="text"
+                  [(ngModel)]="paye"
+                  name="paye"
+                  class="form-control form-control-custom"
+                  placeholder="Country"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Séparation fine -->
+        <div class="col-12">
+          <hr>
+        </div>
+
+
+        <!-- Section 2 : Informations légales -->
+        <div class="col-12">
+          <h5 class="text-custom-black">Legal Information</h5>
+          <div class="row">
+            <!-- Site web -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Website</label>
+                <input
+                  type="text"
+                  [(ngModel)]="siteWeb"
+                  name="siteWeb"
+                  class="form-control form-control-custom"
+                  placeholder="Website"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Numéro de taxe -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Tax Number</label>
+                <input
+                  type="text"
+                  [(ngModel)]="numeroTax"
+                  name="numeroTax"
+                  class="form-control form-control-custom"
+                  placeholder="Tax Number"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Licence commerciale -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Commercial License</label>
+                <input
+                  type="text"
+                  [(ngModel)]="licenceCommerciale"
+                  name="licenceCommerciale"
+                  class="form-control form-control-custom"
+                  placeholder="Commercial License"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Séparation fine -->
+        <div class="col-12">
+          <hr>
+        </div>
+
+
+        <!-- Section 2 : Informations légales -->
+        <div class="col-12">
+          <h5 class="text-custom-black">Manager Information</h5>
+          <div class="row">
+            <!-- Nom du gérant -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Manager Name</label>
+                <input
+                  type="text"
+                  [(ngModel)]="nomGerant"
+                  name="nomGerant"
+                  class="form-control form-control-custom"
+                  placeholder="Manager Name"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Email du gérant -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Manager Email</label>
+                <input
+                  type="email"
+                  [(ngModel)]="emailGerant"
+                  name="emailGerant"
+                  class="form-control form-control-custom"
+                  placeholder="Manager Email"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Téléphone du gérant -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Manager Phone</label>
+                <input
+                  type="text"
+                  [(ngModel)]="telephoneGerant"
+                  name="telephoneGerant"
+                  class="form-control form-control-custom"
+                  placeholder="Manager Phone"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Séparation fine -->
+        <div class="col-12">
+          <hr>
+        </div>
+
+
+        <!-- Section 2 : Informations légales -->
+        <div class="col-12">
+          <h5 class="text-custom-black">Additional Information</h5>
+          <div class="row">
+            <!-- Description -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Description</label>
+                <textarea
+                  [(ngModel)]="description"
+                  name="description"
+                  class="form-control form-control-custom"
+                  placeholder="Description"
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Logo</label>
+                <input
+                  type="file"
+                  (change)="onFileChange($event)"
+                  name="logo"
+                  class="form-control form-control-custom"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bouton de soumission -->
+        <div class="col-12 mt-4">
+          <hr class="mt-0">
+          <div class="form-group">
+            <label class="custom-checkbox">
+              <input type="checkbox" name="#">
+              <span class="checkmark"></span>
+              By continuing, you agree to the<a href="#">Terms and Conditions.</a>
+            </label>
+          </div>
+          <!-- Messages de succès et d'erreur -->
+          <div class="col-12">
+            <div *ngIf="successMessage" class="alert alert-success">
+              {{ successMessage }}
+            </div>
+            <div *ngIf="errorMessage" class="alert alert-danger">
+              {{ errorMessage }}
+            </div>
+          </div>
+          <button type="submit" class="btn-first btn-submit">Sign Up</button>
+          <span class="auth-text">Vous avez déjà un compte ? <a routerLink="/login" class="auth-link">Connectez-vous</a></span>
+        </div>
+      </form>
+    </div>
+
+    <!-- Section d'aide (optionnelle) -->
+    <div class="col-lg-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="hotel-grid mb-xl-30" >
+            <!-- Contenu de la section d'aide -->
+          </div>
+          <div class="need-help bx-wrapper padding-20">
+            <h5 class="text-custom-black">Need Help?.</h5>
+            <p class="text-light-dark">We would be more than happy to help you. Our team advisor are 24/7 at
+              your service to help you.</p>
+            <ul class="custom">
+              <li class="text-custom-blue fs-18">
+                <i class="fas fa-phone-alt"></i>
+                <a href="#" class="text-light-dark"> (+347) 123 456 7890</a>
+              </li>
+              <li class="text-custom-blue fs-18">
+                <i class="fas fa-envelope"></i>
+                <a href="#" class="text-light-dark fs-14"> example@example.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

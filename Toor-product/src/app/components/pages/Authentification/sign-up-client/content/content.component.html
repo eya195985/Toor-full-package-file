@@ -1,0 +1,19 @@
+<section class="section-padding bg-light-white booking-form">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="tabs">
+          <ul ngbNav #nav="ngbNav" class="custom-flex nav nav-tabs">
+            <li [ngbNavItem]="1">
+              <a ngbNavLink>Sign Up Client</a>
+              <ng-template ngbNavContent>
+                <app-sign-up-form></app-sign-up-form>
+              </ng-template>
+            </li>
+          </ul>
+          <div [ngbNavOutlet]="nav" class="bg-custom-white bx-wrapper padding-20"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

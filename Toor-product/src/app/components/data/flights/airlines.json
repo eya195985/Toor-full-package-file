@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Major Airlines"
+    },
+    {
+        "id":2,
+        "title":"United Airlines"
+    },
+    {
+        "id":3,
+        "title":"Alitalia"
+    },
+    {
+        "id":4,
+        "title":"US Airways"
+    },
+    {
+        "id":5,
+        "title":"Air France"
+    },
+    {
+        "id":6,
+        "title":"Air India"
+    }
+]

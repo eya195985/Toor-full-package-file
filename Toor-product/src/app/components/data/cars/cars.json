@@ -1,0 +1,782 @@
+[
+    {
+        "id": 1,
+        "title": "Audi",
+        "image": "assets/images/cars/1.jpg",
+        "price": 18, 
+        "type": [
+            1
+        ],
+        "agents": [
+            1
+        ],
+        "prefrences": [
+            1
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "title": "Audi",
+        "image": "assets/images/cars/2.jpg",
+        "price": 58,
+        "type": [
+            2
+        ],
+        "agents": [
+            2
+        ],
+        "prefrences": [
+            2
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "title": "BMW",
+        "image": "assets/images/cars/3.jpg",
+        "price": 28,
+        "type": [
+            3
+        ],
+        "agents": [
+            3
+        ],
+        "prefrences": [
+            3
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "title": "BMW",
+        "image": "assets/images/cars/4.jpg",
+        "price": 58,
+        "type": [
+            4
+        ],
+        "agents": [
+            4
+        ],
+        "prefrences": [
+            4
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "title": "BMW",
+        "image": "assets/images/cars/5.jpg",
+        "price": 58,
+        "type": [
+            5
+        ],
+        "agents": [
+            5
+        ],
+        "prefrences": [
+            5
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "title": "BMW",
+        "image": "assets/images/cars/6.jpg",
+        "price": 158,
+        "type": [
+            6
+        ],
+        "agents": [
+            6
+        ],
+        "prefrences": [
+            1
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "title": "BMW",
+        "image": "assets/images/cars/7.jpg",
+        "price": 45,
+        "type": [
+            7
+        ],
+        "agents": [
+            7
+        ],
+        "prefrences": [
+            2
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "title": "Chevrolet",
+        "image": "assets/images/cars/8.jpg",
+        "price": 35,
+        "type": [
+            1
+        ],
+        "agents": [
+            1
+        ],
+        "prefrences": [
+            3
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "title": "Porsche",
+        "image": "assets/images/cars/9.jpg",
+        "price": 98,
+        "type": [
+            2
+        ],
+        "agents": [
+            2
+        ],
+        "prefrences": [
+            4
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "title": "Ambessedor",
+        "image": "assets/images/cars/10.jpg",
+        "price": 24,
+        "type": [
+            3
+        ],
+        "agents": [
+            3
+        ],
+        "prefrences": [
+            5
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "title": "Mercedes",
+        "image": "assets/images/cars/11.jpg",
+        "price": 54,
+        "type": [
+            4
+        ],
+        "agents": [
+            4
+        ],
+        "prefrences": [
+            1
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "title": "Lamborghini",
+        "image": "assets/images/cars/12.jpg",
+        "price": 76,
+        "type": [
+            5
+        ],
+        "agents": [
+            5
+        ],
+        "prefrences": [
+            2
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "carinfo": [
+                {
+                    "title": "Passenger",
+                    "text": "4"
+                },
+                {
+                    "title": "Baggage",
+                    "text": "2"
+                },
+                {
+                    "title": "Car Features",
+                    "text": "Available"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "pickuptime": "13 NOV 2021, 7:50 AM",
+                    "pickuplocation": "London City, Airport",
+                    "droptime": "13 NOV 2021, 9:20 AM",
+                    "droplocation": "Paris Orly, Airport"
+                }
+            ]
+        }
+    }
+]

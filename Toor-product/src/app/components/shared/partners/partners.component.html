@@ -1,0 +1,28 @@
+<section class="section-padding partners">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-heading">
+                <h3 class="text-custom-black">Our Partners</h3>
+                <div class="section-description">
+                    <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"> 
+                <ngx-slick-carousel [config]="settings" class="partners-slider arrow-layout-2 row">
+                    <!-- Data -->
+                    <div ngxSlickItem class="slide-item col-12" *ngFor="let item of partners">
+                        <div class="partner-box bx-wrapper animate-img">
+                            <a routerLink="/contact">
+                                <img [src]="item.image" class="img-fluid image-fit" alt="img">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Data -->
+                </ngx-slick-carousel>
+            </div>
+        </div>
+    </div>
+</section>

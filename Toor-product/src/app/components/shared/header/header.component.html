@@ -1,0 +1,130 @@
+<header class="header">
+    <!-- Topbar -->
+    <div class="topbar bg-custom-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="left-side">
+                        <ul class="custom-flex">
+                            <li>
+                                <a href="#" class="text-custom-white">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-custom-white">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-custom-white">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-custom-white">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="right-side">
+                        <ul class="custom-flex">
+                            <li>
+                              <a routerLink="/login" class="text-custom-white">Login</a>
+                            </li>
+                          <li class="menu-item menu-item-has-children">
+                            <a href="javascript:void(0)" class="text-custom-white">Signup <span class="arrow"></span></a>
+                            <ul class="sub-menu custom">
+                              <li class="menu-item">
+                                <a routerLink="/sign-up-client" class="text-custom-white">Sign up en tant que client</a>
+                              </li>
+                              <li class="menu-item">
+                                <a routerLink="/sign-up-agence" class="text-custom-white">Sign up en tant que concessionnaire</a>
+                              </li>
+                            </ul>
+                          </li>
+                            <li>
+                                <select>
+                                    <option>USD</option>
+                                    <option>INR</option>
+                                    <option>EURO</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Topbar -->
+  <!-- Navigation -->
+  <div class="navigation" [ngClass]="windowScrolled ? 'sticky':''">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="main-navigation">
+            <div class="logo">
+              <a routerLink="/">
+                <img src="assets/images/toor-logo.png" class="img-fluid image-fit" alt="img">
+              </a>
+            </div>
+            <div class="main-menu" [ngClass]="navMethod ? 'active' : ''">
+              <div class="logo">
+                <a routerLink="/">
+                  <img src="assets/images/toor-logo.png" class="img-fluid image-fit" alt="img">
+                </a>
+              </div>
+              <nav>
+                <ul class="custom-flex">
+                  <li class="menu-item" [ngClass]="item.child == true ? 'menu-item-has-children' : ''"
+                      *ngFor="let item of navigation">
+                    <a href="javascript:void(0)" (click)="trigger(item)" *ngIf="item.child"
+                       class="text-light-dark">{{item.linkText}} <span class="arrow"></span></a>
+                    <a routerLink="{{item.link}}" *ngIf="!item.child"
+                       class="text-light-dark">{{item.linkText}}</a>
+                    <ul class="sub-menu custom" *ngIf="item.child"
+                        [ngClass]="item.open ? 'd-block' : ''">
+                      <li class="menu-item"
+                          [ngClass]="item.child == true ? 'menu-item-has-children' : ''"
+                          *ngFor="let item of item.submenu">
+                        <a href="javascript:void(0)" (click)="trigger(item)" *ngIf="item.child"
+                           class="text-custom-white">{{item.linkText}} <span
+                          class="arrow"></span></a>
+                        <a routerLink="{{item.link}}" *ngIf="!item.child"
+                           class="text-custom-white">{{item.linkText}}</a>
+                        <ul class="sub-menu custom" *ngIf="item.child"
+                            [ngClass]="item.open ? 'd-block' : ''">
+                          <li class="menu-item" *ngFor="let item of item.submenu">
+                            <a routerLink="{{item.link}}"
+                               class="text-custom-white">{{item.linkText}}</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div class="cta-btn">
+                <!--  <a routerLink="/booking" class="btn-first btn-submit">Enquiry Now</a>-->
+                <a routerLink="tableau-de-bord-admin" class="btn-first btn-submit">admin</a>
+              </div>
+
+
+            </div>
+            <div class="hamburger-menu" (click)="toggleNav()">
+              <div class="menu-btn" [ngClass]="navMethod ? 'active' : ''">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation -->
+</header>

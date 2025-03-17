@@ -1,0 +1,111 @@
+<header class="header">
+  <!-- Topbar -->
+  <div class="topbar bg-custom-blue full-width">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="left-side">
+            <ul class="custom-flex">
+              <li>
+                <a href="#" class="text-custom-white">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-custom-white">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-custom-white">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-custom-white">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="right-side">
+            <!-- Zone de recherche -->
+            <div class="search-container">
+              <input type="text" class="search-input" placeholder="Rechercher...">
+              <button class="search-button">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+
+            <!-- Nouveau conteneur pour l'image du client et la flèche, à droite de la zone de recherche -->
+            <div class="profile-dropdown">
+              <img [src]="clientDetails?.logo || 'assets/images/user.jpg'" alt="Client" class="profile-image-client">
+              <i class="fas fa-caret-down dropdown-arrow"></i>
+              <!-- Menu déroulant -->
+              <div class="dropdown-menu">
+                <a href="#">Dashboard</a>
+                <a href="#">Profil</a>
+                <a href="#">Avis</a>
+                <a (click)="logout()">Déconnexion</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nouvelle section avec l'image ronde et le texte -->
+      <div class="profile-section">
+        <div class="container">
+          <div class="profile-content">
+            <h3 class="text-custom-black">Bonjour {{ clientDetails?.nomComplet || 'Client' }}</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section principale avec deux colonnes -->
+      <div class="row">
+        <!-- Colonne pour le contenu principal -->
+        <div class="col-lg-8">
+          <app-tableau-de-bord-content></app-tableau-de-bord-content>
+        </div>
+
+        <!-- Colonne pour la carte du client -->
+        <div class="col-lg-4">
+          <div class="client-card mb-xl-30">
+            <div class="client-card-wrapper bx-wrapper">
+              <!-- Image ronde du client -->
+              <div class="image-sec p-relative text-center">
+                <img [src]="clientDetails?.logo || 'assets/images/user.jpg'" class="rounded-circle" alt="Client Image" width="120" height="120">
+              </div>
+              <!-- Informations du client -->
+              <div class="client-info padding-20 bg-custom-white p-relative text-center">
+                <h4 class="title fs-16">
+                  <a href="javascript:void(0)" class="text-custom-black">{{ clientDetails?.nomComplet || 'John Doe' }}</a>
+                  <small class="text-light-dark d-block">{{ clientDetails?.email || 'email@gmail.com' }}</small>
+                </h4>
+                <p class="text-light-dark mb-3">{{ clientDetails?.adresse || 'Paris, France' }}</p>
+                <div class="ratings mb-3">
+                  <ngb-rating [max]="5" [rate]="4.5" [readonly]="true" class="rating">
+                    <ng-template let-fill="fill" let-index="index">
+                      <span class="text-light-white fs-12" [class.text-yellow]="fill === 100">
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </ng-template>
+                  </ngb-rating>
+                  <span class="review fs-12 text-light-dark">(25 avis)</span>
+                </div>
+                <p class="text-light-dark">Passionné de voyages et d'aventures. J'aime explorer de nouveaux endroits et rencontrer des gens.</p>
+                <div class="action">
+                  <a routerLink="/about" class="btn-second btn-small">View</a>
+                  <a routerLink="/booking" class="btn-first btn-submit">Book</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

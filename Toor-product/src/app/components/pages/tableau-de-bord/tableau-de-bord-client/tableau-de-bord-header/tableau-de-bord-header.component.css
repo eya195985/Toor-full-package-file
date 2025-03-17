@@ -1,0 +1,310 @@
+.full-width {
+  height: 450px; /* Prend toute la largeur de la fenêtre */
+  margin-left: -50vw; /* Compense le décalage dû à la largeur de la fenêtre */
+  left: 50%; /* Centre la div */
+  position: relative; /* Nécessaire pour le positionnement */
+}
+
+
+/* Styles pour la nouvelle section */
+.profile-section {
+  padding: 25px 25px; /* Espacement vertical */
+
+}
+.text-custom-black{
+color:#ffff;}
+
+.profile-content {
+  display: flex; /* Aligner l'image et le texte horizontalement */
+  align-items: center; /* Centrer verticalement */
+  gap: 15px; /* Espace entre l'image et le texte */
+  margin-top:20px;
+}
+
+/* Styles pour l'image ronde */
+.profile-image {
+  width: 80px; /* Taille de l'image agrandie */
+  height: 80px; /* Taille de l'image agrandie */
+  border-radius: 50%; /* Rendre l'image ronde */
+  object-fit: cover; /* Assurer que l'image conserve ses proportions */
+  border: 3px solid #212529; /* Contour rouge */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère pour un effet 3D */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation fluide */
+}
+
+/* Effet au survol de l'image */
+.profile-image:hover {
+  transform: scale(1.1); /* Agrandir légèrement l'image au survol */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée au survol */
+}
+
+/* Styles pour le texte */
+.profile-text {
+  font-size: 26px; /* Taille du texte plus grande */
+  font-weight: bold; /* Texte en gras */
+  color: #ffff; /* Couleur bleue pour correspondre à la topbar */
+  font-family: 'Roboto', sans-serif; /* Police moderne */
+  text-transform: uppercase; /* Texte en majuscules */
+  letter-spacing: 2px; /* Espacement entre les lettres */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Ombre légère pour le texte */
+  transition: color 0.3s ease; /* Animation fluide pour la couleur */
+}
+
+header {
+  position: relative; /* Permet de structurer sans chevauchement */
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff;
+  min-height: 450px; /* Hauteur minimale pour bien afficher le contenu */
+  padding-bottom: 1500px; /* Évite que app-content ne soit coupé */
+}
+
+app-content {
+  display: block;
+  margin-top: 10px;
+   /* Augmente la hauteur pour plus de contenu */
+  width: 100%;
+  /* S'assurer que le contenu s'affiche bien */
+}
+
+.header .topbar {
+  min-height: auto; /* Permet un ajustement dynamique */
+}
+
+.container {
+  position: relative; /* Évite les chevauchements */
+  z-index: 2; /* Assure que le contenu reste visible */
+}
+
+
+
+
+/* Styles pour la zone de recherche */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px; /* Bordure arrondie */
+  padding: 3px 8px; /* Réduire le padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  max-width: 250px; /* Largeur maximale */
+  margin-left: auto; /* Aligner à droite */
+  height: 36px; /* Hauteur réduite */
+}
+
+.search-input {
+  flex: 1; /* Prendre tout l'espace disponible */
+  border: none;
+  outline: none;
+  padding: 5px; /* Réduire le padding */
+  font-size: 12px; /* Taille de police réduite */
+  background: transparent;
+}
+
+.search-button {
+  background-color: #17a2b8; /* Couleur du bouton */
+  border: none;
+  border-radius: 50%; /* Bouton rond */
+  width: 28px; /* Largeur réduite */
+  height: 28px; /* Hauteur réduite */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #138496; /* Couleur au survol */
+}
+
+.search-button i {
+  color: #ffffff; /* Couleur de l'icône */
+  font-size: 14px; /* Taille de l'icône réduite */
+}
+/*/* Conteneur de la zone de recherche et du menu client */
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligner à droite */
+  }
+
+  /* Conteneur pour l'image du client et la flèche */
+  .profile-dropdown {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* Espacement entre la zone de recherche et le profil */
+    position: relative;
+  }
+
+  /* Image du client */
+  .profile-image-client {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* Rond */
+    object-fit: cover;
+    margin-right: 8px;
+    border: 1px solid #ffff; /* Retirer la bordure noire */
+  }
+
+  /* Icône de la flèche */
+  .dropdown-arrow {
+    color: #fff; /* Couleur de la flèche */
+    font-size: 14px; /* Réduction de la taille de la flèche */
+    cursor: pointer;
+  }
+
+  /* Menu déroulant */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd; /* Bordure douce */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 140px;
+    z-index: 1000;
+  }
+
+  /* Afficher le menu lorsqu'on survole ou clique sur le conteneur */
+  .profile-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu a {
+    padding: 8px 12px; /* Espacement plus léger */
+    color: #212529;
+    text-decoration: none;
+    font-size: 14px; /* Taille de texte réduite */
+    display: block;
+    cursor: pointer;
+  }
+
+
+
+  /* Survol des éléments du menu */
+  .dropdown-menu a:hover {
+    background-color: #f8f8f8; /* Survol de chaque option avec une couleur douce */
+    color: #007bff; /* Changement de couleur du texte lors du survol */
+  }
+/* Infromation client */
+/* Styles pour la carte client */
+.client-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: visible; /* Permettre à l'image de dépasser */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  padding-top: 60px; /* Ajuster l'espace pour l'image ronde */
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image ronde en haut */
+.client-card .image-sec {
+  position: absolute;
+  top: -40px; /* Ajuster la position pour une image plus petite */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.client-card .image-sec img {
+  width: 100px; /* Taille réduite */
+  height: 100px; /* Taille réduite */
+  border: 4px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Informations du client */
+.client-card .client-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.client-card .client-info h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.client-card .client-info h4 a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.client-card .client-info h4 a:hover {
+  color: #17a2b8;
+}
+
+.client-card .client-info p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Étoiles de notation */
+.client-card .ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.client-card .ratings .text-yellow {
+  color: #ffc107;
+}
+
+.client-card .ratings .review {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* Boutons */
+.client-card .action {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.client-card .action .btn-second,
+.client-card .action .btn-first {
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.client-card .action .btn-second {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.client-card .action .btn-second:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+.client-card .action .btn-first {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+}
+
+.client-card .action .btn-first:hover {
+  background-color: #138496;
+  transform: translateY(-2px);
+}
+.col-lg-4{
+margin-top:90px;
+}

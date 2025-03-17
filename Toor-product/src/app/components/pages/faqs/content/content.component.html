@@ -1,0 +1,101 @@
+<section class="section-padding bg-light-white faqs">
+    <div class="container">
+        <div class="row">
+            <aside class="col-lg-4">
+                <div class="sidebar_wrap mb-md-80">
+                    <div class="sidebar">
+                        <div class="sidebar_widgets mb-xl-30">
+                            <div class="widget_title bg-custom-blue">
+                                <h5 class="no-margin text-custom-white">Search</h5>
+                            </div>
+                            <form>
+                                <div class="input-group group-form">
+                                    <input type="search" name="#" class="form-control form-control-custom"
+                                        placeholder="Search">
+                                    <span class="input-group-append">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="sidebar_widgets">
+                            <div class="widget_title bg-custom-blue">
+                                <h5 class="no-margin text-custom-white">FAQs Topic</h5>
+                            </div>
+                            <form class="checkbox-group">
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#" checked>
+                                        <span class="checkmark"></span>
+                                        All
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#">
+                                        <span class="checkmark"></span>
+                                        Features
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#">
+                                        <span class="checkmark"></span>
+                                        Sliders
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#">
+                                        <span class="checkmark"></span>
+                                        Manage Listing
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#">
+                                        <span class="checkmark"></span>
+                                        Address & Map
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#">
+                                        <span class="checkmark"></span>
+                                        Reservation Request
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#">
+                                        <span class="checkmark"></span>
+                                        Your Reservation
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="#">
+                                        <span class="checkmark"></span>
+                                        Other Questions
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div class="col-lg-8">
+                <ngb-accordion [closeOthers]="true" activeIds="static-1" class="custom-accordion d-block">
+                    <ngb-panel id="static-{{1+i}}" *ngFor="let item of faqs;let i = index">
+                        <ng-template ngbPanelTitle>
+                            {{item.title}}
+                        </ng-template>
+                        <ng-template ngbPanelContent>
+                            <div [innerHtml]="item.text"></div>
+                        </ng-template>
+                    </ngb-panel>
+                </ngb-accordion>
+            </div>
+        </div>
+    </div>
+</section>

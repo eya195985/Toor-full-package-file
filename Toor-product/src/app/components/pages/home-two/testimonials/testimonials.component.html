@@ -1,0 +1,29 @@
+<div class="testimonial-box">
+    <div class="section-header style-right">
+        <div class="section-heading">
+            <h3 class="text-custom-black">Testimonials</h3>
+            <div class="section-description">
+            <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-wrapper">
+        <ngx-slick-carousel [config]="settings" class="testimonial-for">
+            <!-- Data -->
+            <div ngxSlickItem class="slide-item" *ngFor="let item of testimonials">
+                <div class="testimonial">
+                    <ngb-rating [max]="5" [(rate)]="item.rating" [readonly]="true" class="rating">
+                        <ng-template let-fill="fill" let-index="index">
+                            <i class="fas fa-star" [class.active]="fill === 100"></i>
+                        </ng-template>
+                    </ngb-rating>
+                    <p class='text-light-dark'>“{{item.text}}”</p>
+                    <p class="text-custom-black author" *ngFor="let author of getAuthor(item.author)">
+                        <strong>{{author.name}}</strong><br>{{author.post}}
+                    </p>
+                </div>
+            </div>
+            <!-- Data -->
+        </ngx-slick-carousel>
+    </div>
+</div>

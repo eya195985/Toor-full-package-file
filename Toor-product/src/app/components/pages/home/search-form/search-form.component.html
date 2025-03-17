@@ -1,0 +1,433 @@
+<div class="banner-tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="tabs">
+                    <ul ngbNav #nav="ngbNav" class="custom-flex nav nav-tabs">
+                        <li [ngbNavItem]="1">
+                            <a ngbNavLink>Hotel</a>
+                            <ng-template ngbNavContent>
+                                <div class="tab-inner">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="form-group">
+                                                    <label class="fs-14 text-custom-black fw-500">Your Destination</label>
+                                                    <input type="text" name="#" class="form-control form-control-custom" placeholder="Your Destination and Hotel Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Check In</label>
+                                                            <div class="input-group group-form">
+                                                                <input type="text" name="#" class="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readonly>
+                                                                <span class="input-group-append">
+                                                                    <i class="far fa-calendar"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Check Out</label>
+                                                            <div class="input-group group-form">
+                                                                <input type="text" name="#" class="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readonly>
+                                                                <span class="input-group-append">
+                                                                    <i class="far fa-calendar"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Rooms</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                  
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Adults</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                 
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Kids</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                 
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6">
+                                              <label class="submit"></label>
+                                                <button type="submit" class="btn-first btn-submit full-width btn-height">Search Now</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </ng-template>
+                          </li>
+                        <li [ngbNavItem]="2">
+                            <a ngbNavLink>Flights</a>
+                            <ng-template ngbNavContent>
+                                <div class="tab-inner">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="form-group">
+                                                    <label class="fs-14 text-custom-black fw-500">Leaving From</label>
+                                                    <input type="text" name="#" class="form-control form-control-custom" placeholder="city, distirct or specific airpot">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="fs-14 text-custom-black fw-500">Going From</label>
+                                                    <input type="text" name="#" class="form-control form-control-custom" placeholder="city, distirct or specific airpot">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Departing On</label>
+                                                            <div class="input-group group-form">
+                                                                <input type="text" name="#" class="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readonly>
+                                                                <span class="input-group-append">
+                                                                    <i class="far fa-calendar"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="submit"></label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>Anytime</option>
+                                                                  <option>Morning</option>
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Arriving On</label>
+                                                            <div class="input-group group-form">
+                                                                <input type="text" name="#" class="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readonly>
+                                                                <span class="input-group-append">
+                                                                    <i class="far fa-calendar"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="submit"></label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>Anytime</option>
+                                                                  <option>Morning</option>
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-12">
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Adults</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                  
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Kids</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                 
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                      <div class="form-group">
+                                                          <label class="fs-14 text-custom-black fw-500">Promocode</label>
+                                                          <input type="text" name="#" class="form-control form-control-custom" placeholder="type here">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Infants</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                 
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="submit"></label>
+                                                            <button class="btn-first btn-submit full-width btn-height">Search</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </ng-template>
+                        </li>
+                        <li [ngbNavItem]="3">
+                            <a ngbNavLink>Cruise</a>
+                            <ng-template ngbNavContent>
+                                <div class="tab-inner">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="form-group">
+                                                    <label class="fs-14 text-custom-black fw-500">Your Destination</label>
+                                                    <input type="text" name="#" class="form-control form-control-custom" placeholder="enter a destination or hotel name">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Departure Date</label>
+                                                            <div class="input-group group-form">
+                                                                <input type="text" name="#" class="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readonly>
+                                                                <span class="input-group-append">
+                                                                    <i class="far fa-calendar"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Cruise Length</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>1-2 Nights</option>
+                                                                  <option>3-4 Nights</option>
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-12">
+                                              <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Cruise Line</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>Azamara Club Cruises</option>
+                                                                  <option>Carnival Cruise Lines</option>
+                                                                  <option>Celebrity Cruises</option>
+                                                                  <option>Costa Cruise Lines</option>
+                                                                  <option>Cruise &amp; Maritime Voyages</option>
+                                                                  <option>Crystal Cruises</option>
+                                                                  <option>Cunard Line Ltd.</option>
+                                                                  <option>Disney Cruise Line</option>
+                                                                  <option>Holland America Line</option>
+                                                                  <option>Hurtigruten Cruise Line</option>
+                                                                  <option>MSC Cruises</option>
+                                                                  <option>Norwegian Cruise Line</option>
+                                                                  <option>Oceania Cruises</option>
+                                                                  <option>Orion Expedition Cruises</option>
+                                                                  <option>P&amp;O Cruises</option>
+                                                                  <option>Paul Gauguin Cruises</option>
+                                                                  <option>Peter Deilmann Cruises</option>
+                                                                  <option>Princess Cruises</option>
+                                                                  <option>Regent Seven Seas Cruises</option>
+                                                                  <option>Royal Caribbean International</option>
+                                                                  <option>Seabourn Cruise Line</option>
+                                                                  <option>Silversea Cruises</option>
+                                                                  <option>Star Clippers</option>
+                                                                  <option>Swan Hellenic Cruises</option>
+                                                                  <option>Thomson Cruises</option>
+                                                                  <option>Viking River Cruises</option>
+                                                                  <option>Windstar Cruises</option>
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <label class="submit"></label>
+                                                          <button type="submit" class="btn-first btn-submit full-width btn-height">Search Now</button>
+                                                    </div>
+                                                </div>
+                                              
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </ng-template>
+                        </li>
+                        <li [ngbNavItem]="4">
+                            <a ngbNavLink>Cars</a>
+                            <ng-template ngbNavContent>
+                                <div class="tab-inner">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="form-group">
+                                                    <label class="fs-14 text-custom-black fw-500">Pick Up</label>
+                                                    <input type="text" name="#" class="form-control form-control-custom" placeholder="city, distirct or specific airpot">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="fs-14 text-custom-black fw-500">Drop Off</label>
+                                                    <input type="text" name="#" class="form-control form-control-custom" placeholder="city, distirct or specific airpot">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Pick Up Date/Time</label>
+                                                            <div class="input-group group-form">
+                                                                <input type="text" name="#" class="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readonly>
+                                                                <span class="input-group-append">
+                                                                    <i class="far fa-calendar"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="submit"></label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>Anytime</option>
+                                                                  <option>Morning</option>
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Drop Off Date/Time</label>
+                                                            <div class="input-group group-form">
+                                                                <input type="text" name="#" class="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readonly>
+                                                                <span class="input-group-append">
+                                                                    <i class="far fa-calendar"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="submit"></label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>Anytime</option>
+                                                                  <option>Morning</option>
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-12">
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Adults</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                 
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Kids</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>01</option>
+                                                                  <option>02</option>
+                                                                 
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                      <div class="form-group">
+                                                          <label class="fs-14 text-custom-black fw-500">Promocode</label>
+                                                          <input type="text" name="#" class="form-control form-control-custom" placeholder="type here">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="fs-14 text-custom-black fw-500">Car Type</label>
+                                                            <div class="group-form">
+                                                              <select class="custom-select form-control form-control-custom" nice-select>
+                                                                  <option>Economy</option>
+                                                                  <option>Compact</option>
+                                                              </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="submit"></label>
+                                                            <button class="btn-first btn-submit full-width btn-height">Search</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </ng-template>
+                        </li>
+                    </ul>
+                    <div [ngbNavOutlet]="nav" class="bg-custom-white bx-wrapper padding-20"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

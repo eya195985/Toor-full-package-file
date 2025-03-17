@@ -1,0 +1,62 @@
+<div class="section-padding contact-form-map d-flex justify-content-center align-items-center vh-100">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="card shadow-lg p-5 border-0 rounded-lg login-card">
+          <div class="section-header text-center">
+            <div class="section-heading">
+              <h3 class="text-custom-black">Connexion</h3>
+
+            </div>
+          </div>
+          <form class="mb-md-80" (ngSubmit)="onLogin()">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    [(ngModel)]="email"
+                    name="email"
+                    class="form-control form-control-custom input-field"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input
+                    type="password"
+                    [(ngModel)]="password"
+                    name="password"
+                    class="form-control form-control-custom input-field"
+                    placeholder="Mot de passe"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn-first btn-submit login-btn">Se connecter</button>
+                <span class="auth-text d-block mt-3">
+                  Vous n'avez pas de compte ? <a routerLink="/signup" class="auth-link">Inscrivez-vous</a>
+                </span>
+                <span class="auth-text d-block mt-2">
+                  <a href="#" (click)="onForgotPassword($event)" class="auth-link">Mot de passe oublié ?</a>
+                </span>
+              </div>
+
+              <!-- Affichage des messages d'erreur -->
+              <div class="col-md-12" *ngIf="errorMessage">
+                <div class="alert alert-danger error-message" role="alert">
+                  {{ errorMessage }}
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<div class="sidebar">
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Search</h5>
+        </div>
+        <form (ngSubmit)="onSubmit()" method="GET">
+            <div class="input-group group-form">
+                <input type="search" class="form-control form-control-custom" placeholder="Search" name="searchText"
+                [(ngModel)]="searchText" required>
+                <button type="submit" class="input-group-append">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Category</h5>
+        </div>
+        <ul class="categories custom">
+            <!-- Data -->
+            <li *ngFor="let item of category">
+                <a routerLink="/blog/cat/{{item.id}}" class="text-custom-black fs-14">
+                    {{item.title}}
+                    <span class="text-light-dark">{{item.count}}</span>
+                </a>
+            </li>
+            <!-- Data -->
+        </ul>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Recent Post</h5>
+        </div>
+        <ul class="custom popular_post">
+            <!-- Data -->
+            <li class="mb-xl-20" *ngFor="let item of getRecentPost()">
+                <div class="post">
+                    <div class="post-wrapper">
+                        <div class="popular_post_img animate-img">
+                            <a routerLink="/blog-details/{{item.id}}">
+                                <img [src]="item.image[0]" [alt]="item.title" class="image-fit">
+                            </a>
+                        </div>
+                        <div class="popular_post_title">
+                            <h6><a routerLink="/blog-details/{{item.id}}" class="text-custom-black fs-14">{{item.title}}</a></h6>
+                            <span class="date text-custom-blue fw-600 fs-14">{{item.postdate}}</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Data -->
+        </ul>
+    </div>
+    <div class="sidebar_widgets">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Tags</h5>
+        </div>
+        <div class="tags">
+            <!-- Data -->
+            <a routerLink="/blog/tag/{{item.id}}" *ngFor="let item of tags">{{item.title}}</a>
+            <!-- Data -->
+        </div>
+    </div>
+</div>

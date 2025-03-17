@@ -1,0 +1,76 @@
+<section class="section-padding bg-light-white">
+    <div class="container">
+        <div class="row">
+            <aside class="col-lg-4">
+                <div class="sidebar_wrap mb-md-80">
+                    <app-flight-sidebar></app-flight-sidebar>
+                </div>
+            </aside>
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="listing-top-heading mb-xl-20">
+                            <h6 class="no-margin text-custom-black">Showing {{flightblock.length}} Results</h6>
+                            <div class="sort-by">
+                                <span class="text-custom-black fs-14 fw-600">Sort by</span>
+                                <div class="group-form">
+                                    <select class="form-control form-control-custom custom-select" nice-select>
+                                        <option>A to Z</option>
+                                        <option>Z to A</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Data -->
+                    <div class="col-md-6" *ngFor="let item of flightblock | paginate: { itemsPerPage: 8, currentPage: page }">
+                        <div class="flights-grid mb-xl-30">
+                            <div class="flights-grid-wrapper bx-wrapper">
+                                <div class="image-sec animate-img">
+                                    <a routerLink="/flight-details/{{item.id}}">
+                                        <img [src]="item.image" class="full-width" [alt]="item.title">
+                                    </a>
+                                </div>
+                                <div class="flights-grid-caption padding-20 bg-custom-white p-relative">
+                                    <div class="heading-sec">
+                                        <div class="left-side">
+                                            <i class="fas fa-plane text-gray"></i>
+                                            <div class="title">
+                                                <h4 class="fs-16">
+                                                    <a routerLink="/flight-details/{{item.id}}"
+                                                        class="text-custom-black">{{item.title}}</a>
+                                                    <span class="text-light-dark"
+                                                        *ngFor="let route of getRoute(item.flightroute)">{{route.title}}
+                                                        Flight</span>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="price"><small>From</small>${{item.price |
+                                                number:'1.0-0'}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="action">
+                                        <a routerLink="/flight-details/{{item.id}}"
+                                            class="btn-second btn-small">View</a>
+                                        <a routerLink="/booking" class="btn-first btn-submit">Book</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Data -->
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="pagination_layout section-padding-top">
+                            <ul class="pagination justify-content-center">
+                                <pagination-controls (pageChange)="page = $event"></pagination-controls>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

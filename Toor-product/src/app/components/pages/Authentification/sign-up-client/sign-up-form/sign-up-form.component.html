@@ -1,0 +1,115 @@
+<div class="tab-inner">
+  <div class="row">
+    <div class="col-lg-8">
+      <!-- Section 1 : Informations personnelles -->
+      <h5 class="text-custom-black">Informations personnelles</h5>
+      <form class="row mb-md-80" [formGroup]="SignUpForm" (ngSubmit)="onSubmit()">
+        <!-- Nom complet (occupe toute la ligne) -->
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Nom complet</label>
+            <input type="text" formControlName="nom_complet" class="form-control form-control-custom"
+                   placeholder="Nom complet" required>
+          </div>
+        </div>
+
+        <!-- Téléphone et Adresse (même ligne) -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Téléphone</label>
+            <input type="text" formControlName="telephone" class="form-control form-control-custom"
+                   placeholder="Téléphone" required>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Adresse</label>
+            <input type="text" formControlName="adresse" class="form-control form-control-custom"
+                   placeholder="Adresse" required>
+          </div>
+        </div>
+
+        <!-- Section 2 : Informations de connexion -->
+        <!-- Séparation fine -->
+        <div class="col-12">
+          <hr>
+        </div>
+
+        <!-- Section 2 : Informations légales -->
+        <div class="col-12">
+          <h5 class="text-custom-black">Informations de connexion</h5>
+
+          <!-- Email -->
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Email</label>
+            <input type="email" formControlName="email" class="form-control form-control-custom"
+                   placeholder="Email" required>
+          </div>
+        </div>
+
+        <!-- Mot de passe et Confirmer le mot de passe (même ligne) -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Mot de passe</label>
+            <input type="password" formControlName="mot_de_passe" class="form-control form-control-custom"
+                   placeholder="Mot de passe" required>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Confirmer le mot de passe</label>
+            <input type="password" formControlName="confirmPassword" class="form-control form-control-custom"
+                   placeholder="Confirmer le mot de passe" required>
+          </div>
+        </div>
+
+        <!-- Bouton de soumission -->
+        <div class="col-12">
+          <hr class="mt-0">
+          <div class="form-group">
+            <label class="custom-checkbox">
+              <input type="checkbox" name="#">
+              <span class="checkmark"></span>
+              En continuant, vous acceptez les <a href="#">Termes et Conditions</a>.
+            </label>
+          </div>
+          <!-- Messages de succès et d'erreur -->
+          <div class="col-12">
+            <div *ngIf="successMessage" class="alert alert-success">
+              {{ successMessage }}
+            </div>
+            <div *ngIf="errorMessage" class="alert alert-danger">
+              {{ errorMessage }}
+            </div>
+          </div>
+          <button type="submit" class="btn-first btn-submit">Confirmer l'inscription</button>
+          <span class="auth-text">Vous avez déjà un compte ? <a routerLink="/login" class="auth-link">Connectez-vous</a></span>
+        </div>
+      </form>
+    </div>
+
+    <!-- Section latérale (conservez-la) -->
+    <div class="col-lg-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="need-help bx-wrapper padding-20">
+            <h5 class="text-custom-black">Besoin d'aide ?</h5>
+            <p class="text-light-dark">Nous serions ravis de vous aider. Notre équipe est disponible 24/7 pour vous assister.</p>
+            <ul class="custom">
+              <li class="text-custom-blue fs-18">
+                <i class="fas fa-phone-alt"></i>
+                <a href="#" class="text-light-dark"> (+347) 123 456 7890</a>
+              </li>
+              <li class="text-custom-blue fs-18">
+                <i class="fas fa-envelope"></i>
+                <a href="#" class="text-light-dark fs-14"> example@example.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

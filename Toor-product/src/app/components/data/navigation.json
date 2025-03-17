@@ -1,0 +1,248 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "child": true,
+        "submenu": [
+            {
+                "id": 1.1,
+                "link": "/",
+                "linkText": "Home v1"
+            },
+            {
+                "id": 1.2,
+                "link": "/home-v2",
+                "linkText": "Home v2"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "linkText": "Hotels",
+        "child": true,
+        "submenu": [
+            {
+                "id": 2.1,
+                "linkText": "Hotels Grid",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 2.11,
+                        "link": "/hotel-grid",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 2.12,
+                        "link": "/hotel-grid-left",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 2.13,
+                        "link": "/hotel-grid-right",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            },
+            {
+                "id": 2.2,
+                "link": "/hotel-details/1",
+                "linkText": "Hotels Details"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "linkText": "Flights",
+        "child": true,
+        "submenu": [
+            {
+                "id": 3.1,
+                "linkText": "Flights Grid",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 3.11,
+                        "link": "/flight-grid",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 3.12,
+                        "link": "/flight-grid-left",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 3.13,
+                        "link": "/flight-grid-right",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            },
+            {
+                "id": 3.2,
+                "link": "/flight-details/1",
+                "linkText": "Flights Details"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "linkText": "Cruise",
+        "child": true,
+        "submenu": [
+            {
+                "id": 4.1,
+                "linkText": "Cruise Grid",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 4.11,
+                        "link": "/cruise-grid",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 4.12,
+                        "link": "/cruise-grid-left",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 4.13,
+                        "link": "/cruise-grid-right",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            },
+            {
+                "id": 4.2,
+                "link": "/cruise-details/1",
+                "linkText": "Cruise Details"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "linkText": "Cars",
+        "child": true,
+        "submenu": [
+            {
+                "id": 5.1,
+                "linkText": "Cars Grid",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 5.11,
+                        "link": "/car-grid",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 5.12,
+                        "link": "/car-grid-left",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 5.13,
+                        "link": "/car-grid-right",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            },
+            {
+                "id": 5.2,
+                "link": "/car-details/1",
+                "linkText": "Cars Details"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "linkText": "Blog",
+        "child": true,
+        "submenu": [
+            {
+                "id": 6.1,
+                "linkText": "Blog Grid",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 6.11,
+                        "link": "/blog-grid",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 6.12,
+                        "link": "/blog-grid-left",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 6.13,
+                        "link": "/blog-grid-right",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            },
+            {
+                "id": 6.2,
+                "linkText": "Blog Details",
+                "child": true,
+                "submenu": [
+                    {
+                        "id": 6.21,
+                        "link": "/blog-details/1",
+                        "linkText": "Full Width"
+                    },
+                    {
+                        "id": 6.22,
+                        "link": "/blog-details-left/1",
+                        "linkText": "Left Sidebar"
+                    },
+                    {
+                        "id": 6.23,
+                        "link": "/blog-details-right/1",
+                        "linkText": "Right Sidebar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "linkText": "Pages",
+        "child": true,
+        "submenu": [
+            {
+                "id": 7.1,
+                "link": "/about",
+                "linkText": "About Us"
+            },
+            {
+                "id": 7.2,
+                "link": "/contact",
+                "linkText": "Contact Us"
+            },
+            {
+                "id": 7.3,
+                "link": "/faqs",
+                "linkText": "FAQ's"
+            },
+            {
+                "id": 7.4,
+                "link": "/booking",
+                "linkText": "Booking"
+            },
+            {
+                "id": 7.5,
+                "link": "/gallery",
+                "linkText": "Gallery"
+            },
+            {
+                "id": 7.6,
+                "link": "/error-page",
+                "linkText": "Error 404"
+            },
+            {
+                "id": 7.7,
+                "link": "/coming-soon",
+                "linkText": "Coming Soon"
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Buffet Restaurent"
+    },
+    {
+        "id":2,
+        "title":"Entertainment"
+    },
+    {
+        "id":3,
+        "title":"Swimming Pools"
+    },
+    {
+        "id":4,
+        "title":"Clubs"
+    },
+    {
+        "id":5,
+        "title":"Fitness Center"
+    },
+    {
+        "id":6,
+        "title":"Live Shows"
+    },
+    {
+        "id":7,
+        "title":"Duty Free Shops"
+    }
+]

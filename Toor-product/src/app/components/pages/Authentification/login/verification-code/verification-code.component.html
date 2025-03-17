@@ -1,0 +1,48 @@
+<app-header></app-header>
+
+<div class="section-padding contact-form-map d-flex justify-content-center align-items-center vh-100">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="card shadow-lg p-5 border-0 rounded-lg verification-card">
+          <div class="section-header text-center">
+            <div class="section-heading">
+              <h3 class="text-custom-black">Vérification de l'email</h3>
+            </div>
+          </div>
+          <form class="mb-md-80" (ngSubmit)="onSubmitVerificationCode()">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="verificationCode">Code de vérification :</label>
+                  <input
+                    type="text"
+                    id="verificationCode"
+                    [(ngModel)]="verificationCode"
+                    name="verificationCode"
+                    class="form-control form-control-custom input-field"
+                    required
+                    placeholder="Saisissez le code"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn-first btn-submit verification-btn">Valider</button>
+              </div>
+
+              <!-- Affichage des messages d'erreur -->
+              <div class="col-md-12" *ngIf="errorMessage">
+                <div class="alert alert-danger error-message" role="alert">
+                  {{ errorMessage }}
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,21 @@
+<breadcrumb #parent>
+    <div class="subheader normal-bg section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ng-template ngFor let-route [ngForOf]="parent.breadcrumbs">
+                        <h1 class="text-custom-white">{{ route.displayName }}</h1>
+                        <ul class="custom-flex justify-content-center">
+                            <li class="fw-500">
+                                <a routerLink="/" class="text-custom-white">Home</a>
+                            </li>
+                            <li class="active fw-500">
+                                {{ route.displayName }}
+                            </li>
+                        </ul>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</breadcrumb>

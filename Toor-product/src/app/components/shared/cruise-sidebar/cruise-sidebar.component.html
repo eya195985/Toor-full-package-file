@@ -1,0 +1,176 @@
+<div class="sidebar">
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Modify Search</h5>
+        </div>
+        <form>
+            <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Destination</label>
+                <input type="search" name="#" class="form-control form-control-custom" placeholder="London">
+            </div>
+            <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Departure Date</label>
+                <div class="input-group group-form">
+                    <input type="text" name="#" class="form-control form-control-custom datepickr"
+                        placeholder="mm/dd/yy" readonly="">
+                    <span class="input-group-append">
+                        <i class="far fa-calendar"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Cruise Length</label>
+                <div class="group-form">
+                    <select class="custom-select form-control form-control-custom" nice-select>
+                        <option>1-2 Nights</option>
+                        <option>3-4 Nights</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Cruise Line</label>
+                <div class="group-form">
+                    <select class="custom-select form-control form-control-custom" nice-select>
+                        <option>Azamara Club Cruises</option>
+                        <option>Carnival Cruise Lines</option>
+                        <option>Celebrity Cruises</option>
+                        <option>Costa Cruise Lines</option>
+                        <option>Cruise &amp; Maritime Voyages</option>
+                        <option>Crystal Cruises</option>
+                        <option>Cunard Line Ltd.</option>
+                        <option>Disney Cruise Line</option>
+                        <option>Holland America Line</option>
+                        <option>Hurtigruten Cruise Line</option>
+                        <option>MSC Cruises</option>
+                        <option>Norwegian Cruise Line</option>
+                        <option>Oceania Cruises</option>
+                        <option>Orion Expedition Cruises</option>
+                        <option>P&amp;O Cruises</option>
+                        <option>Paul Gauguin Cruises</option>
+                        <option>Peter Deilmann Cruises</option>
+                        <option>Princess Cruises</option>
+                        <option>Regent Seven Seas Cruises</option>
+                        <option>Royal Caribbean International</option>
+                        <option>Seabourn Cruise Line</option>
+                        <option>Silversea Cruises</option>
+                        <option>Star Clippers</option>
+                        <option>Swan Hellenic Cruises</option>
+                        <option>Thomson Cruises</option>
+                        <option>Viking River Cruises</option>
+                        <option>Windstar Cruises</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn-first btn-submit full-width btn-height">Search Now</button>
+        </form>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Price</h5>
+        </div>
+        <div class="widget_range">
+            <div class="thc-range-inner">
+                <ngx-slider [(value)]="priceFilter[0]" [(highValue)]="priceFilter[1]" [options]="priceFilterOptions"
+                    [(ngModel)]="priceFilter" (click)="handlePriceChange()">
+                </ngx-slider>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Cruise Length</h5>
+        </div>
+        <div class="widget_range">
+            <div class="thc-range-inner">
+                <ngx-slider [(value)]="nightFilter[0]" [(highValue)]="nightFilter[1]" [options]="nightFilterOptions"
+                    [(ngModel)]="nightFilter" (click)="handleNightChange()">
+                </ngx-slider>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Cruise Line</h5>
+        </div>
+        <form class="checkbox-group">
+            <!-- Data -->
+            <div class="form-group" *ngFor="let item of line">
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="#" value="{{item.title}}">
+                    <span class="checkmark"></span>
+                    {{item.title}}
+                </label>
+            </div>
+            <!-- Data -->
+            <button type="button" class="btn-second btn-small">View more</button>
+        </form>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Cruise Preference</h5>
+        </div>
+        <form class="checkbox-group">
+            <!-- Data -->
+            <div class="form-group" *ngFor="let item of preference">
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="#" value="{{item.title}}">
+                    <span class="checkmark"></span>
+                    {{item.title}}
+                </label>
+            </div>
+            <!-- Data -->
+            <button type="button" class="btn-second btn-small">View more</button>
+        </form>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Cruise Accomodation</h5>
+        </div>
+        <form class="checkbox-group">
+            <!-- Data -->
+            <div class="form-group" *ngFor="let item of accomodation">
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="#" value="{{item.title}}">
+                    <span class="checkmark"></span>
+                    {{item.title}}
+                </label>
+            </div>
+            <!-- Data -->
+            <button type="button" class="btn-second btn-small">View more</button>
+        </form>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Cruise Amenities</h5>
+        </div>
+        <form class="checkbox-group">
+            <!-- Data -->
+            <div class="form-group" *ngFor="let item of amenities">
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="#" value="{{item.title}}">
+                    <span class="checkmark"></span>
+                    {{item.title}}
+                </label>
+            </div>
+            <!-- Data -->
+            <button type="button" class="btn-second btn-small">View more</button>
+        </form>
+    </div>
+    <div class="sidebar_widgets">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Cabin Type</h5>
+        </div>
+        <form class="checkbox-group">
+            <!-- Data -->
+            <div class="form-group" *ngFor="let item of cabintype">
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="#" value="{{item.title}}">
+                    <span class="checkmark"></span>
+                    {{item.title}}
+                </label>
+            </div>
+            <!-- Data -->
+            <button type="button" class="btn-second btn-small">View more</button>
+        </form>
+    </div>
+</div>

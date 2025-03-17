@@ -1,0 +1,34 @@
+.verification-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  max-width: 90%;
+  padding: 40px;
+  border-top: 5px solid #2d3e52;
+}
+
+.input-field {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #ced4da;
+}
+
+.verification-btn {
+  background-color: #01b7f2;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.error-message {
+  border-radius: 8px;
+}
+
+.auth-link {
+  color: #2d3e52;
+  font-weight: bold;
+}
+

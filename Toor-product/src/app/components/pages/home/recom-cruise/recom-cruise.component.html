@@ -1,0 +1,63 @@
+<section class="section-padding cruise-sec">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-heading">
+                <h3 class="text-custom-black">Recommended Cruise</h3>
+                <div class="section-description">
+                    <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ngx-slick-carousel [config]="settings" class="hotel-slider arrow-layout-2 row">
+                    <!-- Data -->
+                    <div ngxSlickItem class="slide-item col-12" *ngFor="let item of cruiseblock">
+                        <div class="cruise-grid">
+                            <div class="cruise-grid-wrapper bx-wrapper">
+                                <div class="image-sec animate-img">
+                                    <a routerLink="/cruise-details/{{item.id}}">
+                                        <img [src]="item.image" class="full-width" [alt]="item.title">
+                                    </a>
+                                </div>
+                                <div class="cruise-grid-caption padding-20 bg-custom-white p-relative">
+                                    <h4 class="title fs-16 no-margin"><a routerLink="/cruise-details/{{item.id}}" class="text-custom-black">{{item.title}}<small class="text-light-dark">{{item.night}} Nights</small></a></h4>
+                                    <span class="price"><small>From</small>${{item.price | number:'1.0-0'}}</span>
+                                    <div class="feedback">
+                                        <div class="ratings">
+                                            <ngb-rating [max]="5" [(rate)]="item.rating" [readonly]="true" class="rating">
+                                                <ng-template let-fill="fill" let-index="index">
+                                                    <span class="text-light-white fs-12" [class.text-yellow]="fill === 100"><i class="fas fa-star"></i></span>
+                                                </ng-template>
+                                            </ngb-rating>
+                                        </div>
+                                        <span class="review fs-12 text-light-white">{{item.reviews.length}} reviews</span>
+                                    </div>
+                                    <div class="row time">
+                                        <div class="date col-6">
+                                            <i class="far fa-clock text-yellow fs-18"></i>
+                                            <div class="text-light-dark fs-12">
+                                                <span class="text-custom-blue">Date</span><br>{{item.cruisedate}}
+                                            </div>
+                                        </div>
+                                        <div class="departure col-6">
+                                            <i class="fas fa-map-marker-alt text-yellow fs-18"></i>
+                                            <div class="text-light-dark fs-12">
+                                                <span class="text-custom-blue">Departure</span><br>{{item.deplocation}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="action">
+                                        <a routerLink="/cruise-details/{{item.id}}" class="btn-second btn-small">View</a>
+                                        <a routerLink="/booking" class="btn-first btn-submit">Book</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Data -->
+                </ngx-slick-carousel>
+            </div>
+        </div>
+    </div>
+</section>

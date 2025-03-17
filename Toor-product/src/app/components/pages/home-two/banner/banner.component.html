@@ -1,0 +1,29 @@
+<div class="slider p-relative">
+    <ngx-slick-carousel [config]="settings" class="main-banner arrow-layout-1 ">
+        <!-- Data -->
+        <div ngxSlickItem class="slide-item" [style.background-image]="'url('+item.image+')'"
+            *ngFor="let item of bannerpost">
+            <div class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="slider-content">
+                                <h1 class="text-custom-white" [innerHtml]="item.title"></h1>
+                                <ul class="custom">
+                                    <!-- Data -->
+                                    <li class="text-custom-white" *ngFor="let accomondation of item.accomondation">
+                                        <i [class]="accomondation.icon"></i>
+                                        {{accomondation.title}}
+                                    </li>
+                                    <!-- Data -->
+                                </ul>
+                                <a [routerLink]="item.link" class="btn-first btn-small">Find Out More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Data -->
+    </ngx-slick-carousel>
+</div>

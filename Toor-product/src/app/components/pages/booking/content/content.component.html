@@ -1,0 +1,37 @@
+<section class="section-padding bg-light-white booking-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="tabs">
+                    <ul ngbNav #nav="ngbNav" class="custom-flex nav nav-tabs">
+                        <li [ngbNavItem]="1">
+                            <a ngbNavLink>Hotel Booking</a>
+                            <ng-template ngbNavContent>
+                                <app-hotel-booking></app-hotel-booking>
+                            </ng-template>
+                          </li>
+                        <li [ngbNavItem]="2">
+                            <a ngbNavLink>Flights Booking</a>
+                            <ng-template ngbNavContent>
+                                <app-flight-booking></app-flight-booking>
+                            </ng-template>
+                        </li>
+                        <li [ngbNavItem]="3">
+                            <a ngbNavLink>Cruise Booking</a>
+                            <ng-template ngbNavContent>
+                                <app-cruise-booking></app-cruise-booking>
+                            </ng-template>
+                        </li>
+                        <li [ngbNavItem]="4">
+                            <a ngbNavLink>Cars Booking</a>
+                            <ng-template ngbNavContent>
+                                <app-car-booking></app-car-booking>
+                            </ng-template>
+                        </li>
+                    </ul>
+                    <div [ngbNavOutlet]="nav" class="bg-custom-white bx-wrapper padding-20"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

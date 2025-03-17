@@ -1,0 +1,1394 @@
+[
+    {
+        "id": 1,
+        "title": "Hotel Hilton",
+        "image": [
+            "assets/images/hotels/1.jpg",
+            "assets/images/hotels/2.jpg",
+            "assets/images/hotels/3.jpg",
+            "assets/images/hotels/4.jpg",
+            "assets/images/hotels/5.jpg"
+        ],
+        "location": "Paris France",
+        "price": 120,
+        "rating": 4,
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 2,
+        "title": "Forte Do Vale",
+        "image": [
+            "assets/images/hotels/2.jpg",
+            "assets/images/hotels/3.jpg",
+            "assets/images/hotels/4.jpg",
+            "assets/images/hotels/5.jpg",
+            "assets/images/hotels/6.jpg"
+        ],
+        "location": "Jaipur",
+        "price": 620,
+        "rating": 4,
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 3,
+        "title": "Gran Canaria",
+        "image": [
+            "assets/images/hotels/3.jpg",
+            "assets/images/hotels/4.jpg",
+            "assets/images/hotels/5.jpg",
+            "assets/images/hotels/6.jpg",
+            "assets/images/hotels/7.jpg"
+        ],
+        "location": "France",
+        "price": 220,
+        "rating": 4,
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 4,
+        "title": "Roosevelt Hotel",
+        "image": [
+            "assets/images/hotels/4.jpg",
+            "assets/images/hotels/5.jpg",
+            "assets/images/hotels/6.jpg",
+            "assets/images/hotels/7.jpg",
+            "assets/images/hotels/8.jpg"
+        ],
+        "location": "New Delhi",
+        "price": 220,
+        "rating": 4,
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 5,
+        "title": "Costa Brava",
+        "image": [
+            "assets/images/hotels/5.jpg",
+            "assets/images/hotels/6.jpg",
+            "assets/images/hotels/7.jpg",
+            "assets/images/hotels/8.jpg",
+            "assets/images/hotels/9.jpg"
+        ],
+        "location": "Paris",
+        "price": 620,
+        "rating": 4,
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 6,
+        "title": "Ruzzini Palace",
+        "image": [
+            "assets/images/hotels/6.jpg",
+            "assets/images/hotels/7.jpg",
+            "assets/images/hotels/8.jpg",
+            "assets/images/hotels/9.jpg",
+            "assets/images/hotels/10.jpg"
+        ],
+        "location": "London",
+        "price": 620,
+        "rating": 4,
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 7,
+        "title": "Plaza Tour",
+        "image": [
+            "assets/images/hotels/7.jpg",
+            "assets/images/hotels/8.jpg",
+            "assets/images/hotels/9.jpg",
+            "assets/images/hotels/10.jpg",
+            "assets/images/hotels/11.jpg"
+        ],
+        "location": "Raja Park",
+        "price": 320,
+        "rating": 4,
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 8,
+        "title": "Park Central",
+        "image": [
+            "assets/images/hotels/8.jpg",
+            "assets/images/hotels/9.jpg",
+            "assets/images/hotels/10.jpg",
+            "assets/images/hotels/11.jpg",
+            "assets/images/hotels/12.jpg"
+        ],
+        "location": "Paris",
+        "price": 620,
+        "rating": 4,
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 9,
+        "title": "Sultan Gardens",
+        "image": [
+            "assets/images/hotels/9.jpg",
+            "assets/images/hotels/10.jpg",
+            "assets/images/hotels/11.jpg",
+            "assets/images/hotels/12.jpg",
+            "assets/images/hotels/1.jpg"
+        ],
+        "location": "Rajasthan",
+        "price": 620,
+        "rating": 4,
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 10,
+        "title": "Brisa Sol",
+        "image": [
+            "assets/images/hotels/10.jpg",
+            "assets/images/hotels/11.jpg",
+            "assets/images/hotels/12.jpg",
+            "assets/images/hotels/1.jpg",
+            "assets/images/hotels/2.jpg"
+        ],
+        "location": "France",
+        "price": 100,
+        "rating": 4,
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 11,
+        "title": "Hotel Dore",
+        "image": [
+            "assets/images/hotels/11.jpg",
+            "assets/images/hotels/12.jpg",
+            "assets/images/hotels/1.jpg",
+            "assets/images/hotels/2.jpg",
+            "assets/images/hotels/3.jpg"
+        ],
+        "location": "Paris",
+        "price": 620,
+        "rating": 4,
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 12,
+        "title": "Grand Hotel",
+        "image": [
+            "assets/images/hotels/12.jpg",
+            "assets/images/hotels/1.jpg",
+            "assets/images/hotels/2.jpg",
+            "assets/images/hotels/3.jpg",
+            "assets/images/hotels/4.jpg"
+        ],
+        "location": "Las Vegas",
+        "price": 720,
+        "rating": 4,
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "hotelinfo": [
+                
+                {
+                    "title": "Extra People",
+                    "text": "No Charge"
+                },
+                {
+                    "title": "Minimum Stay",
+                    "text": "2 Nights"
+                },
+                {
+                    "title": "Security Deposit",
+                    "text": "$279"
+                },
+                {
+                    "title": "Country",
+                    "text": "France"
+                },
+                {
+                    "title": "City",
+                    "text": "Paris"
+                },
+                {
+                    "title": "Neighcorhood",
+                    "text": "Republique"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "Strict"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "faqs": [
+            {
+                "title": "Address & Map",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Messaging",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Refunds",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Pricing",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Reservation Request",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            },
+            {
+                "title": "Your Reservation",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+            }
+        ],
+        "reviews": []
+    }
+]

@@ -1,0 +1,63 @@
+<section class="section-padding bg-light-white our_articles">
+    <div class="container">
+        <div class="row">
+            <aside class="col-lg-4">
+                <div class="sidebar_wrap mb-md-80">
+                    <app-blog-sidebar></app-blog-sidebar>
+                </div>
+            </aside>
+            <div class="col-lg-8">
+                <div class="row">
+                    <!-- article -->
+                    <article class="col-md-6 post mb-xl-30" *ngFor="let item of blogblock | paginate: { itemsPerPage: 6, currentPage: page }">
+                        <div class="post-wrapper bx-wrapper">
+                            <div class="post-img animate-img">
+                                <a routerLink="/blog-details/{{item.id}}">
+                                    <img [src]="item.image[0]" class="full-width" [alt]="item.title">
+                                </a>
+                                <div class="post-date" [innerHtml]="getDateInitials(item.postdate)">
+                                </div>
+                            </div> 
+                            <div class="blog-meta padding-20 bg-custom-white p-relative">
+                                <div class="post-meta mb-xl-20">
+                                    <a routerLink="/blog-details/{{item.id}}" class="text-light-dark mr-1">
+                                        <span class="text-custom-blue">
+                                            <i class="fas fa-comment"></i>
+                                        </span> {{item.reviews.length}} Comments
+                                    </a>
+                                    <a routerLink="/blog-details/{{item.id}}" class="text-light-dark mr-1">
+                                        <span class="text-custom-blue">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </span> {{item.likes}} Likes
+                                    </a>
+                                </div>
+                                <div class="post-heading">
+                                    <h2>
+                                        <a routerLink="/blog-details/{{item.id}}" class="text-custom-black fw-600 fs-20">{{item.title}}</a>
+                                    </h2>
+                                    <p class="text-light-dark no-margin">{{item.shorttext}}...</p>
+                                </div>
+                            </div>
+                            <div class="post-footer">
+                                <div class="post-author" *ngFor="let author of getAuthor(item.author)">
+                                    <cite class="text-custom-black">Post By <a routerLink="/blog/author/{{author.id}}">{{author.name}}</a></cite>
+                                </div>
+                                <a routerLink="/blog-details/{{item.id}}" class="text-custom-blue fs-14 fs-600">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- article -->
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="pagination_layout section-padding-top">
+                            <ul class="pagination justify-content-center">
+                                <pagination-controls (pageChange)="page = $event"></pagination-controls>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

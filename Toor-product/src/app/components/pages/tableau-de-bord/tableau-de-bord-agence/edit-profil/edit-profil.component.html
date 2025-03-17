@@ -1,0 +1,195 @@
+
+<div class="tab-inner">
+  <div class="row">
+    <div class="col-lg-8">
+      <!-- Section 1 : Informations personnelles -->
+      <h5 class="text-custom-black">Informations personnelles</h5>
+      <form class="row mb-md-80" [formGroup]="updateForm" (ngSubmit)="onUpdate()">
+        <!-- Nom complet -->
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Nom complet</label>
+            <input type="text" formControlName="nomComplet" class="form-control form-control-custom"
+                   placeholder="Nom complet" required>
+          </div>
+        </div>
+
+        <!-- Téléphone et Adresse -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Téléphone</label>
+            <input type="text" formControlName="telephone" class="form-control form-control-custom"
+                   placeholder="Téléphone" required>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Adresse</label>
+            <input type="text" formControlName="adresse" class="form-control form-control-custom"
+                   placeholder="Adresse" required>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Email</label>
+            <input type="email" formControlName="email" class="form-control form-control-custom"
+                   placeholder="Email" required>
+          </div>
+        </div>
+
+        <!-- Pays -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Pays</label>
+            <input type="text" formControlName="pays" class="form-control form-control-custom"
+                   placeholder="Pays" >
+          </div>
+        </div>
+
+        <!-- Site web -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Site web</label>
+            <input type="text" formControlName="siteWeb" class="form-control form-control-custom"
+                   placeholder="Site web" required>
+          </div>
+        </div>
+
+        <!-- Numéro de taxe -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Numéro de taxe</label>
+            <input type="text" formControlName="numeroTax" class="form-control form-control-custom"
+                   placeholder="Numéro de taxe" required>
+          </div>
+        </div>
+
+        <!-- Licence commerciale -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Licence commerciale</label>
+            <input type="text" formControlName="licenceCommerciale" class="form-control form-control-custom"
+                   placeholder="Licence commerciale" required>
+          </div>
+        </div>
+
+        <!-- Nom du gérant -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Nom du gérant</label>
+            <input type="text" formControlName="nomGerant" class="form-control form-control-custom"
+                   placeholder="Nom du gérant" required>
+          </div>
+        </div>
+
+        <!-- Email du gérant -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Email du gérant</label>
+            <input type="email" formControlName="emailGerant" class="form-control form-control-custom"
+                   placeholder="Email du gérant" required>
+          </div>
+        </div>
+
+        <!-- Téléphone du gérant -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Téléphone du gérant</label>
+            <input type="text" formControlName="telephoneGerant" class="form-control form-control-custom"
+                   placeholder="Téléphone du gérant" required>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Description</label>
+            <textarea formControlName="description" class="form-control form-control-custom"
+                      placeholder="Description" required></textarea>
+          </div>
+        </div>
+
+
+        <!-- Bouton de soumission -->
+        <div class="col-12">
+          <button type="submit" class="btn-first btn-submit">Mettre à jour</button>
+        </div>
+
+        <!-- Messages de succès et d'erreur -->
+        <div class="col-12">
+          <div *ngIf="successMessageform1" class="alert alert-success mt-3">
+            {{ successMessageform1 }}
+          </div>
+          <div *ngIf="errorMessageform1" class="alert alert-danger mt-3">
+            {{ errorMessageform1 }}
+          </div>
+        </div>
+      </form>
+<app-edite-logo></app-edite-logo>
+
+      <!-- Section 2 : Changer le mot de passe -->
+      <h5 class="text-custom-black mt-4">Changer le mot de passe</h5>
+      <form class="row mb-md-80" [formGroup]="changePasswordForm" (ngSubmit)="onChangePassword()">
+        <!-- Ancien mot de passe -->
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Ancien mot de passe</label>
+            <input
+              type="password"
+              formControlName="oldPassword"
+              class="form-control form-control-custom"
+              placeholder="Ancien mot de passe"
+              required
+            />
+          </div>
+        </div>
+
+        <!-- Nouveau mot de passe -->
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Nouveau mot de passe</label>
+            <input
+              type="password"
+              formControlName="newPassword"
+              class="form-control form-control-custom"
+              placeholder="Nouveau mot de passe"
+              required
+            />
+          </div>
+        </div>
+
+        <!-- Confirmation du nouveau mot de passe -->
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="fs-14 text-custom-black fw-500">Confirmer le nouveau mot de passe</label>
+            <input
+              type="password"
+              formControlName="confirmPassword"
+              class="form-control form-control-custom"
+              placeholder="Confirmer le nouveau mot de passe"
+              required
+            />
+          </div>
+        </div>
+
+        <!-- Bouton de soumission -->
+        <div class="col-12">
+          <button type="submit" class="btn-first btn-submit">Mettre à jour</button>
+        </div>
+
+        <!-- Messages de succès ou d'erreur -->
+        <div class="col-12">
+          <div *ngIf="successMessageform2" class="alert alert-success mt-3">
+            {{ successMessageform2 }}
+          </div>
+          <div *ngIf="errorMessageform2" class="alert alert-danger mt-3">
+            {{ errorMessageform2 }}
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

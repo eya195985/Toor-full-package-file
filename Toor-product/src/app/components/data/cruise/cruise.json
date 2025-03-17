@@ -1,0 +1,1406 @@
+[
+    {
+        "id": 1,
+        "title": "Baja Mexico",
+        "image": "assets/images/cruise/1.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 620,
+        "rating": 4,
+        "cruisedate": "JAN 26, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            1
+        ],
+        "preference": [
+            1
+        ],
+        "cabintype": [
+            1
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 2,
+        "title": "Renault Mexico",
+        "image": "assets/images/cruise/2.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 100,
+        "rating": 4,
+        "cruisedate": "JAN 16, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            2
+        ],
+        "preference": [
+            2
+        ],
+        "cabintype": [
+            2
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 3,
+        "title": "Renault Sedan",
+        "image": "assets/images/cruise/3.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 120,
+        "rating": 4,
+        "cruisedate": "JAN 10, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            3
+        ],
+        "preference": [
+            3
+        ],
+        "cabintype": [
+            3
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 4,
+        "title": "Hyundai Sedan",
+        "image": "assets/images/cruise/4.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 100,
+        "rating": 4,
+        "cruisedate": "FEB 10, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            4
+        ],
+        "preference": [
+            4
+        ],
+        "cabintype": [
+            4
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 5,
+        "title": "Hyundai M.M",
+        "image": "assets/images/cruise/5.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 140,
+        "rating": 4,
+        "cruisedate": "JAN 10, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            5
+        ],
+        "preference": [
+            5
+        ],
+        "cabintype": [
+            5
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 6,
+        "title": "Marine Corp",
+        "image": "assets/images/cruise/6.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 120,
+        "rating": 4,
+        "cruisedate": "JAN 26, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            6
+        ],
+        "preference": [
+            6
+        ],
+        "cabintype": [
+            6
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 7,
+        "title": "Evergreen",
+        "image": "assets/images/cruise/7.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 170,
+        "rating": 4,
+        "cruisedate": "JAN 28, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            7
+        ],
+        "preference": [
+            7
+        ],
+        "cabintype": [
+            7
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 8,
+        "title": "Hapag-Lloyd",
+        "image": "assets/images/cruise/8.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 630,
+        "rating": 4,
+        "cruisedate": "JAN 29, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            1
+        ],
+        "preference": [
+            1
+        ],
+        "cabintype": [
+            1
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 9,
+        "title": "CMA Group",
+        "image": "assets/images/cruise/9.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 640,
+        "rating": 4,
+        "cruisedate": "JAN 10, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            2
+        ],
+        "preference": [
+            2
+        ],
+        "cabintype": [
+            2
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 10,
+        "title": "Hapag-Lloyd",
+        "image": "assets/images/cruise/10.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 640,
+        "rating": 4,
+        "cruisedate": "JAN 26, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            3
+        ],
+        "preference": [
+            3
+        ],
+        "cabintype": [
+            3
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 11,
+        "title": "Renault Sedan",
+        "image": "assets/images/cruise/11.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 680,
+        "rating": 4,
+        "cruisedate": "JAN 26, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            4
+        ],
+        "preference": [
+            4
+        ],
+        "cabintype": [
+            4
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 12,
+        "title": "Baja Mexico",
+        "image": "assets/images/cruise/12.jpg",
+        "cruisevideo": "https://player.vimeo.com/video/12160490",
+        "price": 620,
+        "rating": 4,
+        "cruisedate": "JAN 26, 2022",
+        "deplocation": "Los Vegas",
+        "night": 4,
+        "cruiseline": [
+            5
+        ],
+        "preference": [
+            5
+        ],
+        "cabintype": [
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "cruiseinfo": [
+                {
+                    "title": "Ship Name",
+                    "text": "Imagination"
+                },
+                {
+                    "title": "Interior Room",
+                    "text": "$234"
+                },
+                {
+                    "title": "Ocean View",
+                    "text": "$567"
+                },
+                {
+                    "title": "Balcony",
+                    "text": "Not Offered"
+                },
+                {
+                    "title": "Suite",
+                    "text": "$345"
+                },
+                {
+                    "title": "Save Per Room",
+                    "text": "28%"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenties": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "accomodation": [
+                1,
+                2
+            ]
+        },
+        "itinerary": [
+            {
+                "serial": 1,
+                "poc": "Long Beach (Los Angeles), California",
+                "arrival": "---",
+                "departure": "5:30 p.m"
+            },
+            {
+                "serial": 2,
+                "poc": "At Sea",
+                "arrival": "---",
+                "departure": "---"
+            },
+            {
+                "serial": 3,
+                "poc": "Catalina Island, California",
+                "arrival": "7:30 a.m",
+                "departure": "4:30 p.m"
+            },
+            {
+                "serial": 4,
+                "poc": "Ensenada, Mexico",
+                "arrival": "9:00 a.m",
+                "departure": "8:00 p.m"
+            }
+        ],
+        "reviews": []
+    }
+]

@@ -1,0 +1,79 @@
+<section>
+  <div class="container mt-4">
+    <h2>Liste des Concessionnaires en Attente</h2>
+
+    <!-- Indicateur de chargement -->
+    <div *ngIf="isLoading" class="text-center">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Chargement...</span>
+      </div>
+    </div>
+
+    <!-- Message si aucun concessionnaire n'est trouvé -->
+    <div *ngIf="!isLoading && concessionnaires.length === 0" class="alert alert-info">
+      Aucun concessionnaire en attente trouvé.
+    </div>
+
+    <!-- Tableau des concessionnaires -->
+    <div *ngIf="!isLoading && concessionnaires.length > 0">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+          <tr>
+            <th style="width: 30%;">Agency Name</th> <!-- Augmentation de la largeur -->
+            <th>Email</th>
+            <th>Téléphone</th>
+            <th>Statut</th>
+            <th>Actions</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let concessionnaire of concessionnaires">
+            <!-- Colonne fusionnée : logo + nom avec des styles améliorés -->
+            <td class="d-flex align-items-center" style="min-width: 250px; padding: 10px;">
+              <img
+                [src]="concessionnaire.logoUrl || 'assets/images/default-logo.png'"
+                alt="Logo de l'agence"
+                class="rounded-circle"
+                style="width: 60px; height: 60px; object-fit: cover; margin-right: 15px;"
+              />
+              <span style="font-weight: bold; font-size: 1rem;">{{ concessionnaire.nomComplet }}</span>
+            </td>
+            <td>{{ concessionnaire.email }}</td>
+            <td>{{ concessionnaire.telephone }}</td>
+            <td>En Attente</td>
+            <td>
+              <button class="btn btn-info btn-sm" (click)="consulterDetails(concessionnaire.idConcessionnaire)">
+                Détails
+              </button>
+              <button class="btn btn-success btn-sm" (click)="updateStatut(concessionnaire, 'Accepter')">
+                ✔ Accepter
+              </button>
+              <button class="btn btn-danger btn-sm" (click)="updateStatut(concessionnaire, 'Rejeter')">
+                ✖ Rejeter
+              </button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination-container">
+        <ul class="pagination">
+          <li class="page-item" (click)="previousPage()" [class.disabled]="currentPage === 1">
+            <a class="page-link" href="#">Précédent</a>
+          </li>
+          <li class="page-item" *ngFor="let page of pages" [class.active]="page === currentPage">
+            <a class="page-link" href="#" (click)="goToPage(page)">{{ page }}</a>
+          </li>
+          <li class="page-item" (click)="nextPage()" [class.disabled]="currentPage === totalPages">
+            <a class="page-link" href="#">Suivant</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

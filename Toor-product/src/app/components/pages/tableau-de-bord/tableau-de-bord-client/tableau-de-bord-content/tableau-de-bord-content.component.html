@@ -1,0 +1,29 @@
+<section class="section-padding  booking-form">
+  <div>
+    <div class="row">
+      <div class="col-12">
+        <div class="tabs">
+          <ul class="custom-flex nav nav-tabs">
+            <li class="nav-item" [class.active]="selectedTab === 1" (click)="selectTab(1)">
+              <a class="nav-link">Gérer mon compte</a>
+            </li>
+            <li class="nav-item" [class.active]="selectedTab === 2" (click)="selectTab(2)">
+              <a class="nav-link">Mes réservations</a>
+            </li>
+            <li class="nav-item" [class.active]="selectedTab === 3" (click)="selectTab(3)">
+              <a class="nav-link">Mes commentaires</a>
+            </li>
+
+          </ul>
+          <div class="bg-custom-white bx-wrapper padding-20">
+            <!-- Affichage conditionnel des composants -->
+            <app-edit-profil *ngIf="selectedTab === 1"></app-edit-profil>
+            <app-edit-profil *ngIf="selectedTab === 2"></app-edit-profil>
+            <app-edit-profil *ngIf="selectedTab === 3"></app-edit-profil>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

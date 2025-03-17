@@ -1,0 +1,80 @@
+<div class="sidebar">
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Modify Search</h5>
+        </div>
+        <form>
+            <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Your Destination</label>
+                <input type="search" name="#" class="form-control form-control-custom" placeholder="Your Destination">
+            </div>
+            <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Check In</label>
+                <div class="input-group group-form">
+                    <input type="text" name="#" class="form-control form-control-custom datepickr"
+                        placeholder="mm/dd/yy" readonly="">
+                    <span class="input-group-append">
+                        <i class="far fa-calendar"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="fs-14 text-custom-black fw-500">Check Out</label>
+                <div class="input-group group-form">
+                    <input type="text" name="#" class="form-control form-control-custom datepickr"
+                        placeholder="mm/dd/yy" readonly="">
+                    <span class="input-group-append">
+                        <i class="far fa-calendar"></i>
+                    </span>
+                </div>
+            </div>
+            <button type="submit" class="btn-first btn-submit full-width btn-height">Search Now</button>
+        </form>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Price</h5>
+        </div>
+        <div class="widget_range">
+            <div class="thc-range-inner">
+                <ngx-slider [(value)]="priceFilter[0]" [(highValue)]="priceFilter[1]" [options]="priceFilterOptions"
+                    [(ngModel)]="priceFilter" (click)="handlePriceChange()">
+                </ngx-slider>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Accomodation</h5>
+        </div>
+        <form class="checkbox-group">
+            <!-- Data -->
+            <div class="form-group" *ngFor="let item of accomodation">
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="#" value="{{item.title}}">
+                    <span class="checkmark"></span>
+                    {{item.title}}
+                </label>
+            </div>
+            <!-- Data -->
+            <button type="button" class="btn-second btn-small">View more</button>
+        </form>
+    </div>
+    <div class="sidebar_widgets mb-xl-30">
+        <div class="widget_title bg-custom-blue">
+            <h5 class="no-margin text-custom-white">Amenities</h5>
+        </div>
+        <form class="checkbox-group">
+            <!-- Data -->
+            <div class="form-group" *ngFor="let item of amenities">
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="#" value="{{item.title}}">
+                    <span class="checkmark"></span>
+                    {{item.title}}
+                </label>
+            </div>
+            <!-- Data -->
+            <button type="button" class="btn-second btn-small">View more</button>
+        </form>
+    </div>
+</div>

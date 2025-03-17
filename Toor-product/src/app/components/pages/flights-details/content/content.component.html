@@ -1,0 +1,306 @@
+<section class="section-padding bg-light-white listing-details" *ngFor="let item of flightdetails">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="listing-details-inner bx-wrapper bg-custom-white padding-20">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="detail-slider-for mb-xl-20 magnific-gallery">
+                                <div class="slide-item">
+                                    <a [href]="item.image" class="popup">
+                                        <img [src]="item.image" class="image-fit" [alt]="item.title">
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="listing-meta-sec mb-md-80">
+                                <div class="tabs">
+                                    <ul ngbNav #nav="ngbNav" class="custom-flex nav nav-tabs mb-xl-20">
+                                        <li [ngbNavItem]="1">
+                                            <a ngbNavLink>Overview</a>
+                                            <ng-template ngbNavContent>
+                                                <div class="tab-inner">
+                                                    <div class="row">
+                                                        <div class="col-md-5">
+                                                            <div class="hotel-type mb-xl-20 bg-light-white padding-10">
+                                                                <ul class="custom">
+                                                                    <li class="text-light-dark"
+                                                                        *ngFor="let airlines of getAirlines(item.airlines)">
+                                                                        <label class="no-margin text-custom-blue">
+                                                                            Airline:
+                                                                        </label>{{airlines.title}}
+                                                                    </li>
+                                                                    <li class="text-light-dark"
+                                                                        *ngFor="let flighttype of getType(item.flighttype)">
+                                                                        <label class="no-margin text-custom-blue">
+                                                                            Flight Type:
+                                                                        </label>{{flighttype.title}}
+                                                                    </li>
+                                                                    <li class="text-light-dark"
+                                                                        *ngFor="let flightinfo of item.overview.flightinfo">
+                                                                        <label
+                                                                            class="no-margin text-custom-blue">{{flightinfo.title}}:</label>{{flightinfo.text}}
+                                                                    </li>
+                                                                    <li class="text-light-dark">
+                                                                        <label class="no-margin text-custom-blue">
+                                                                            Base Fare:
+                                                                        </label>${{item.price | number:'1.2-2'}}
+                                                                    </li>
+                                                                    <li class="text-light-dark">
+                                                                        <label class="no-margin text-custom-blue">
+                                                                            Tax & Fees:
+                                                                        </label>$300.00
+                                                                    </li>
+                                                                    <li class="text-light-dark">
+                                                                        <label class="no-margin text-custom-blue">
+                                                                            Total Price:
+                                                                        </label>${{item.price + 300 | number:'1.2-2'}}
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-7">
+                                                            <div
+                                                                class="listing-testimonial padding-20 bg-light-white mb-xl-20">
+                                                                <ngx-slick-carousel [config]="settingsTesti"
+                                                                    class="testimonial-inner detail-testimonial">
+                                                                    <!-- Data -->
+                                                                    <div ngxSlickItem class="tesimonial-item"
+                                                                        *ngFor="let testimonials of getTestimonials(item.overview.testimonials)">
+                                                                        <cite
+                                                                            class="text-custom-blue fs-16">{{testimonials.text
+                                                                            | slice:0:152}}</cite>
+                                                                        <div class="testimonial-author"
+                                                                            *ngFor="let author of getAuthor(testimonials.author)">
+                                                                            <div class="author-img">
+                                                                                <img [src]="author.image"
+                                                                                    class="rounded-circle"
+                                                                                    [alt]="author.name">
+                                                                            </div>
+                                                                            <div class="author-name ml-2">
+                                                                                <h6
+                                                                                    class="text-custom-black no-margin fs-14 fw-500">
+                                                                                    {{author.name}}</h6>
+                                                                                <p class="no-margin text-light-dark">
+                                                                                    {{author.post}}</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Data -->
+                                                                </ngx-slick-carousel>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="information">
+                                                                <h4 class="text-custom-black">About {{item.title}}</h4>
+                                                                <div class="htmltext" [innerHtml]="item.overview.text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </ng-template>
+                                        </li>
+                                        <li [ngbNavItem]="2">
+                                            <a ngbNavLink>Amenities</a>
+                                            <ng-template ngbNavContent>
+                                                <h4 class="text-custom-black">{{item.includes.title}}</h4>
+                                                <p class="text-light-dark">{{item.includes.text}}</p>
+                                                <ul class="custom amenities row no-gutters mb-xl-20">
+                                                    <!-- Data -->
+                                                    <li class="col-sm-6"
+                                                        *ngFor="let amenities of getAmenities(item.includes.amenities)">
+                                                        <div class="icon-box text-light-dark">
+                                                            <i [class]="amenities.icon"></i>
+                                                            {{amenities.title}}
+                                                        </div>
+                                                    </li>
+                                                    <!-- Data -->
+                                                </ul>
+                                                <h4 class="text-custom-black">{{item.travelinfo.title}}</h4>
+                                                <p class="text-light-dark">{{item.travelinfo.text}}</p>
+                                                <div class="travel-info bg-light-white">
+                                                    <div class="row no-gutters">
+                                                        <!-- Data -->
+                                                        <div [ngClass]="item.travelinfo.journeydetails.length === 1 ? 'col-sm-12':'col-sm-6'"
+                                                            *ngFor="let time of item.travelinfo.journeydetails">
+                                                            <div class="head padding-20">
+                                                                <h5 class="text-custom-black fs-14 fw-500 no-margin"
+                                                                    *ngFor="let airlines of getAirlines(item.airlines)">
+                                                                    {{airlines.title}}</h5>
+                                                                <span class="text-light-dark fs-12"
+                                                                    *ngFor="let flighttype of getType(item.flighttype)">AI-635
+                                                                    {{flighttype.title}}</span>
+                                                            </div>
+                                                            <div class="travel-info-body padding-20">
+                                                                <div class="date-wrapper mb-xl-20">
+                                                                    <div class="icon text-custom-blue fs-20">
+                                                                        <i class="far fa-clock"></i>
+                                                                    </div>
+                                                                    <div class="text">
+                                                                        <p class="text-custom-black no-margin">Take Off
+                                                                        </p>
+                                                                        <span
+                                                                            class="text-light-dark fs-12">{{time.takeofftime}}</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-wrapper">
+                                                                    <div class="icon text-custom-blue fs-20">
+                                                                        <i class="fas fa-map-marker-alt"></i>
+                                                                    </div>
+                                                                    <div class="text">
+                                                                        <p class="text-custom-black no-margin">Landing
+                                                                        </p>
+                                                                        <span
+                                                                            class="text-light-dark fs-12">{{time.landingtime}}</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Data -->
+                                                    </div>
+                                                </div>
+                                            </ng-template>
+                                        </li>
+                                        <li [ngbNavItem]="3">
+                                            <a ngbNavLink>FAQs</a>
+                                            <ng-template ngbNavContent>
+                                                <ngb-accordion [closeOthers]="true" activeIds="static-1"
+                                                    class="custom-accordion d-block">
+                                                    <ngb-panel id="static-{{1+i}}"
+                                                        *ngFor="let faq of item.faqs;let i = index">
+                                                        <ng-template ngbPanelTitle>
+                                                            {{faq.title}}
+                                                        </ng-template>
+                                                        <ng-template ngbPanelContent>
+                                                            <div [innerHtml]="faq.text"></div>
+                                                        </ng-template>
+                                                    </ngb-panel>
+                                                </ngb-accordion>
+                                            </ng-template>
+                                        </li>
+                                    </ul>
+                                    <div [ngbNavOutlet]="nav"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="quick-quote bx-wrapper padding-20 mb-xl-30">
+                                        <h5 class="text-custom-black">Enquiry Now</h5>
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label class="fs-14 text-custom-black fw-500">Leaving
+                                                            From</label>
+                                                        <input type="text" name="#"
+                                                            class="form-control form-control-custom"
+                                                            placeholder="city, distirct or specific airpot">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="fs-14 text-custom-black fw-500">Departing
+                                                            On</label>
+                                                        <div class="input-group group-form">
+                                                            <input type="text" name="#"
+                                                                class="form-control form-control-custom datepickr"
+                                                                placeholder="mm/dd/yy" readonly="">
+                                                            <span class="input-group-append">
+                                                                <i class="far fa-calendar"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="fs-14 text-custom-black fw-500">Going From</label>
+                                                        <input type="text" name="#"
+                                                            class="form-control form-control-custom"
+                                                            placeholder="city, distirct or specific airpot">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="fs-14 text-custom-black fw-500">Arriving
+                                                            On</label>
+                                                        <div class="input-group group-form">
+                                                            <input type="text" name="#"
+                                                                class="form-control form-control-custom datepickr"
+                                                                placeholder="mm/dd/yy" readonly="">
+                                                            <span class="input-group-append">
+                                                                <i class="far fa-calendar"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="fs-14 text-custom-black fw-500">Class</label>
+                                                        <div class="group-form">
+                                                            <select
+                                                                class="custom-select form-control form-control-custom" nice-select>
+                                                                <option>Business</option>
+                                                                <option>Economy</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit"
+                                                        class="btn-first btn-submit full-width btn-height">Submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="flights-grid mb-xl-30"
+                                        *ngFor="let flight of getFlightByCategory(item.category) | slice:0:1">
+                                        <div class="flights-grid-wrapper bx-wrapper">
+                                            <div class="image-sec animate-img">
+                                                <a routerLink="/flight-details/{{flight.id}}">
+                                                    <img [src]="flight.image" class="full-width" [alt]="flight.title">
+                                                </a>
+                                            </div>
+                                            <div class="flights-grid-caption padding-20 bg-custom-white p-relative">
+                                                <div class="heading-sec">
+                                                    <div class="left-side">
+                                                        <i class="fas fa-plane text-gray"></i>
+                                                        <div class="title">
+                                                            <h4 class="fs-16">
+                                                                <a routerLink="/flight-details/{{flight.id}}"
+                                                                    class="text-custom-black">{{flight.title}}</a>
+                                                                <span class="text-light-dark"
+                                                                    *ngFor="let route of getRoute(flight.flightroute)">{{route.title}}
+                                                                    Flight</span>
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <span class="price"><small>From</small>${{flight.price |
+                                                            number:'1.0-0'}}</span>
+                                                    </div>
+                                                </div>
+                                                <div class="action">
+                                                    <a routerLink="/flight-details/{{flight.id}}"
+                                                        class="btn-second btn-small">View</a>
+                                                    <a routerLink="/booking" class="btn-first btn-submit">Book</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="need-help bx-wrapper padding-20">
+                                        <h5 class="text-custom-black">Need Help?.</h5>
+                                        <p class="text-light-dark">We would be more than happy to help you. Our team
+                                            advisor are 24/7 at your service to help you.</p>
+                                        <ul class="custom">
+                                            <li class="text-custom-blue fs-18">
+                                                <i class="fas fa-phone-alt"></i>
+                                                <a href="#" class="text-light-dark">(+347) 123 456 7890</a>
+                                            </li>
+                                            <li class="text-custom-blue fs-18">
+                                                <i class="fas fa-envelope"></i>
+                                                <a href="#" class="text-light-dark fs-14">example@example.com</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

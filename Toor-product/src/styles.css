@@ -1,0 +1,346 @@
+/* You can add global styles to this file, and also import other style files */
+button:focus,
+button:hover,
+ngb-rating:focus {
+	outline: none!important;
+	box-shadow: none!important;
+  text-decoration: none!important;
+}
+.main-banner .slide-item {
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-banner .slide-item .section-padding {
+  padding: 120px 0;
+}
+
+.main-banner.slick-slider .slick-track,
+.main-banner.slick-slider .slick-list {
+  display: flex;
+}
+
+.group-form .form-control-custom,
+.group-form .form-control-custom:not(:last-child) {
+  border-radius: 50px !important;
+}
+
+.banner-tabs .tab-pane .row {
+  margin: 0 -10px;
+}
+
+.banner-tabs .tab-content {
+  padding-bottom: calc(20px - 1rem);
+}
+
+.banner-tabs label.submit+button {
+  margin-bottom: 1rem;
+}
+
+.banner-tabs .custom-select {
+  margin: 0;
+}
+
+.banner-tabs .form-group label.submit+button {
+  margin-bottom: 0;
+}
+
+.section-padding.section {
+  padding-bottom: 50px;
+}
+
+.our-team .team-block .team-social-box {
+  transform: none;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  transition: 0.3s all;
+}
+
+.our-team .team-block .team-social-box li {
+  left: 0;
+  margin-bottom: 0;
+  width: 25%;
+  display: flex;
+}
+
+.our-team .team-block .team-social-box li a {
+  width: 100%;
+  border-radius: 0;
+  line-height: normal;
+  display: block;
+  padding: 10px 0;
+  background: #01b7f2;
+  color: #fff;
+}
+
+.our-team .team-block .designation {
+  margin-bottom: 10px;
+}
+
+.our-team .team-block .lower-content {
+  border: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.our-team .team-block:hover .team-social-box {
+  transform: translateY(-20px);
+}
+
+.about-us .about-right-side .about-img:before {
+  top: auto;
+  bottom: 0;
+}
+
+.video_btn {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 22px;
+}
+
+.section-header .section-description .subheading {
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-header .section-heading h3:before {
+  content: "\f072";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  color: #01b7f2;
+  font-size: 16px;
+  position: absolute;
+  bottom: -8.5px;
+}
+
+.section-header .section-heading h3 {
+  position: relative;
+}
+
+.section-header.style-right .section-heading h3::before {
+  transform: rotate(180deg);
+  right: 0;
+}
+
+.testimonial-box .testimonial-wrapper .testimonial .rating {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.testimonial-box .testimonial-wrapper .testimonial .rating i {
+  color: #838383;
+}
+
+.testimonial-box .testimonial-wrapper .testimonial .rating i.active {
+  color: #fec624;
+}
+
+.testimonial-box .testimonial-wrapper .testimonial:before {
+  position: relative;
+  padding: 0;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.testimonial-box .testimonial-wrapper .testimonial .author strong {
+  font-size: 16px;
+  color: #01b7f2;
+}
+/* .hotel-grid .image-sec img{
+  height: 150px;
+  object-fit: cover;
+} */
+@media (max-width: 992px) {
+  .section-header.style-right .section-heading h3::before {
+    transform: none;
+    right: auto;
+  }
+}
+.coming-soon .coming-soon-text .counter .countdown {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 125px;
+  height: 125px;
+  display: block;
+  background-color: #01b7f2;
+  color: #fff;
+  border-radius: 0px;
+  margin: 0 15px 30px;
+  flex: none!important;
+  padding: 20px 0;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements>.measurements-number {
+font-size: 50px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements .measurements-text{
+  color: #fff;
+  margin: 0;
+}
+.coming-soon .coming-soon-text .counter .countdown .measurements .divider{
+  display: none;
+}
+/* Pagination */
+pagination-template .ngx-pagination {
+	margin-top: 0px;
+	justify-content: center;
+	margin-bottom: 0;
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+	border-radius: .25rem;
+}
+pagination-template .ngx-pagination li {
+	margin: 0;
+	position: relative;
+}
+pagination-template .ngx-pagination li.pagination-next,
+pagination-template .ngx-pagination li.pagination-previous {
+	padding: 0;
+	display: block;
+}
+pagination-template .ngx-pagination li.pagination-next span,
+pagination-template .ngx-pagination li.pagination-previous span,
+pagination-template .ngx-pagination li a {
+	background-color: #fff;
+    font-weight: 400;
+    padding: 8px 20px!important;
+    margin: 0;
+    position: relative;
+    margin-left: 0;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 2px solid #eee;
+    color: #020202;
+    border-radius: 0;
+}
+pagination-template .ngx-pagination li.current {
+	border-radius: 0px;
+	color: #fff;
+	border: 1px solid #01b7f2;
+	background-color: #01b7f2;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 8px 20px!important;
+	margin: 0;
+	position: relative;
+	display: block;
+    line-height: 1.5;
+}
+pagination-template .ngx-pagination li.pagination-next::after,
+pagination-template .ngx-pagination li.pagination-next a:after,
+pagination-template .ngx-pagination li.pagination-previous a::before,
+pagination-template .ngx-pagination li.pagination-previous::before {
+	display: none!important;
+}
+pagination-template .ngx-pagination li.pagination-previous a,
+pagination-template .ngx-pagination li.pagination-previous span{
+  border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+pagination-template .ngx-pagination li.pagination-next a,
+pagination-template .ngx-pagination li.pagination-next span{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.pagination_layout{
+	margin-top: -30px;
+}
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a::after{
+  content: ', ';
+}
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a:last-child::after{
+  display: none;
+}
+.comment-box .comments li article .comment-avatar{
+  width: 80px;
+}
+.sidebar_wrap .sidebar .sidebar_widgets .popular_post li:last-child{
+  margin-bottom: 0;
+}
+.sidebar_wrap .sidebar .sidebar_widgets .tags{
+  margin-bottom: -10px;
+}
+/* Range slider */
+.ngx-slider .ngx-slider-bar-wrapper{
+  padding-top: 20px!important;
+}
+.ngx-slider .ngx-slider-bubble{
+  padding: 1px 5px!important;
+  color: #ffffff!important;
+  font-size: 12px!important;
+  background-color: #01b7f2;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.ngx-slider .ngx-slider-bubble::after{
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #01b7f2;
+}
+.ngx-slider .ngx-slider-bar{
+  background: #eee!important;
+  height: 4px!important;
+  border-radius: 4px!important;
+}
+.ngx-slider .ngx-slider-selection{
+  background: #01b7f2!important;
+  border-radius: 0px!important;
+}
+.ngx-slider .ngx-slider-pointer:after {
+  display: none!important;
+}
+.ngx-slider .ngx-slider-pointer{
+  width: 15px!important;
+    height: 15px!important;
+    top: -2px!important;
+    border: 0px solid #01b7f2;
+    background-color: #01b7f2!important;
+    box-shadow: 0 1px 3px rgb(0 0 255 / 30%);
+}
+.listing-details-inner .listing-meta-sec .listing-testimonial .tesimonial-item .testimonial-author .author-img{
+  width: 86px;
+  height: 86px;
+}
+.htmltext p:last-child{
+  margin-bottom: 0;
+}
+.hotel-grid .hotel-grid-wrapper.car-grid .image-sec img{
+  object-fit: cover;
+}
+.why-choose-box .why-choose-wrapper .why-choose-img  .choose-item{
+  cursor: context-menu;
+}

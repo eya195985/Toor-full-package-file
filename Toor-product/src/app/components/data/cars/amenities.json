@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "icon":"fas fa-users",
+        "title":"4 Passengers"
+    },
+    {
+        "id":2,
+        "icon":"fas fa-briefcase",
+        "title":"2 Bags"
+    },
+    {
+        "id":3,
+        "icon":"fas fa-wind",
+        "title":"Air Conditioning"
+    },
+    {
+        "id":4,
+        "icon":"fas fa-route",
+        "title":"Satellite Navigation"
+    },
+    {
+        "id":5,
+        "icon":"fas fa-car",
+        "title":"Diesel Vehicle"
+    },
+    {
+        "id":6,
+        "icon":"fas fa-cogs",
+        "title":"Automatic Transmission"
+    }
+]

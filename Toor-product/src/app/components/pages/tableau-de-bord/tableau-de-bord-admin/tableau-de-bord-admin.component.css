@@ -1,0 +1,228 @@
+/* ======= Styles pour un dashboard moderne avec sidebar bleu foncé ======= */
+
+/* ---- Sidebar ---- */
+.agency-sidebar {
+  width: 250px;
+  background: #1e293b; /* Bleu foncé/gris */
+  color: white;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px 10px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.agency-sidebar.collapsed {
+  width: 80px;
+}
+
+.agency-sidebar-menu a {
+  text-decoration: none;
+  color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.agency-sidebar-menu a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+/* ---- Top Navigation Bar ---- */
+.agency-top-nav {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+  height: 60px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  transition: all 0.3s;
+}
+
+.agency-sidebar.collapsed + .agency-top-nav {
+  left: 80px;
+  width: calc(100% - 80px);
+}
+
+/* ---- Contenu principal ---- */
+.agency-main-content {
+  width: calc(100% - 250px);
+  margin-left: 250px;
+  padding: 80px 20px 20px;
+  background: white;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+.agency-sidebar.collapsed + .agency-main-content {
+  margin-left: 80px;
+}
+
+/* ---- Cards Dashboard ---- */
+.agency-dashboard-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.agency-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.agency-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .agency-sidebar {
+    width: 80px;
+  }
+
+  .agency-top-nav {
+    left: 80px;
+    width: calc(100% - 80px);
+  }
+
+  .agency-main-content {
+    margin-left: 80px;
+  }
+}
+
+
+/* ---- Top Navigation Bar ---- */
+.agency-top-nav {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+  height: 70px;
+  background: white; /* Arrière-plan blanc */
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* ---- Search Bar ---- */
+.agency-top-nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centre horizontalement */
+  gap: 20px; /* Espacement entre les éléments */
+  width: 100%; /* Prend toute la largeur */
+  height: 100%; /* Prend toute la hauteur */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Ajustement pour la barre de recherche */
+.agency-search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centre le contenu */
+  background-color: #2c3e50;
+  border-radius: 25px;
+  padding: 5px 20px;
+  transition: all 0.3s;
+}
+
+/* Ajustement des icônes */
+.agency-notifications,
+.agency-user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agency-notifications i,
+.agency-user-profile i {
+  color: #2c3e50;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.agency-notifications span {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+
+.agency-top-nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alignement à gauche */
+  gap: 20px; /* Espacement entre les éléments */
+  width: 100%; /* Prend toute la largeur */
+  height: 100%; /* Prend toute la hauteur */
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 20px; /* Ajoute un padding à gauche pour éviter que les éléments ne collent au bord */
+}
+
+/* Ajustement pour la barre de recherche */
+.agency-search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alignement à gauche */
+  background-color: #2c3e50;
+  border-radius: 25px;
+  padding: 5px 20px;
+  transition: all 0.3s;
+  margin-left: auto; /* Pousse la barre de recherche à droite */
+}
+
+/* Ajustement des icônes */
+.agency-notifications,
+.agency-user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agency-notifications i,
+.agency-user-profile i {
+  color: #2c3e50;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.agency-notifications span {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  text-align: center;
+}

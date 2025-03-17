@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Flights",
+        "image":"assets/images/tour-block_4.jpg",
+        "text":"1150 Offers",
+        "link":"/flight-grid"
+    },
+    {
+        "id":2,
+        "title":"Cruises",
+        "image":"assets/images/tour-block_2.jpg",
+        "text":"1100 Locations",
+        "link":"/cruise-grid"
+    },
+    {
+        "id":3,
+        "title":"Hotels",
+        "image":"assets/images/tour-block_3.jpg",
+        "text":"1250 Locations",
+        "link":"/hotel-grid"
+    },
+    {
+        "id":4,
+        "title":"Tours",
+        "image":"assets/images/tour-block_1.jpg",
+        "text":"1550 Locations",
+        "link":"/car-grid"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "icon":"far fa-smile",
+        "title":"Happy Customers",
+        "value":70000
+    },
+    {
+        "id":2,
+        "icon":"fas fa-bus",
+        "title":"Amazing Tours",
+        "value":122
+    },
+    {
+        "id":3,
+        "icon":"fas fa-briefcase",
+        "title":"In Business",
+        "value":8187
+    },
+    {
+        "id":4,
+        "icon":"far fa-comments",
+        "title":"Support Cases",
+        "value":12865
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "title":"1 Stop"
+    },
+    {
+        "id":2,
+        "title":"2 Stops"
+    },
+    {
+        "id":3,
+        "title":"3 Stops"
+    },
+    {
+        "id":4,
+        "title":"Multistops"
+    }
+]

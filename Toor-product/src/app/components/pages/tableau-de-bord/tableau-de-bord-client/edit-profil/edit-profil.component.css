@@ -1,0 +1,115 @@
+/* Styles pour la carte client */
+.client-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: visible; /* Permettre à l'image de dépasser */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  padding-top: 60px; /* Ajuster l'espace pour l'image ronde */
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image ronde en haut */
+.client-card .image-sec {
+  position: absolute;
+  top: -40px; /* Ajuster la position pour une image plus petite */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.client-card .image-sec img {
+  width: 100px; /* Taille réduite */
+  height: 100px; /* Taille réduite */
+  border: 4px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Informations du client */
+.client-card .client-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.client-card .client-info h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.client-card .client-info h4 a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.client-card .client-info h4 a:hover {
+  color: #17a2b8;
+}
+
+.client-card .client-info p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Étoiles de notation */
+.client-card .ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.client-card .ratings .text-yellow {
+  color: #ffc107;
+}
+
+.client-card .ratings .review {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* Boutons */
+.client-card .action {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.client-card .action .btn-second,
+.client-card .action .btn-first {
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.client-card .action .btn-second {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.client-card .action .btn-second:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+.client-card .action .btn-first {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+}
+
+.client-card .action .btn-first:hover {
+  background-color: #138496;
+  transform: translateY(-2px);
+}

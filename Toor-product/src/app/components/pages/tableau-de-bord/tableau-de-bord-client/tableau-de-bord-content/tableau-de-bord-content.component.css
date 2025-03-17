@@ -1,0 +1,120 @@
+/* Conteneur des onglets */
+
+.tabs .nav-tabs {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: transparent;
+  justify-content: flex-start;
+}
+
+
+/* Onglet individuel */
+.tabs .nav-tabs .nav-item .nav-link {
+  background: #fff;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #01b7f2; /* Ligne sous chaque onglet */
+  color: #000;
+  font-weight: 600;
+  padding: 12px 40px;
+  display: block;
+  z-index: 10;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Onglet actif (applique la couleur de fond bleu sur l'onglet cliqué) */
+.nav-tabs .nav-item .nav-link.active {
+  background-color: rgb(1, 183, 242); /* Fond bleu */
+  color: white;  /* Texte blanc */
+  border-color: rgb(1, 183, 242); /* Bordure bleue pour l'onglet actif */
+}
+
+/* Effet au survol des onglets */
+.nav-tabs .nav-item .nav-link:hover {
+  background-color: rgb(1, 183, 242); /* Fond bleu au survol */
+  color: white;  /* Texte blanc au survol */
+  border-color: rgb(1, 183, 242); /* Bordure bleue au survol */
+}
+
+/* Styles pour les liens à l'intérieur des onglets */
+.nav-tabs .nav-item .nav-link a {
+  color: #01b7f2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Onglet sous les autres éléments */
+.nav-tabs .nav-item {
+  text-align: center;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+/* Liste des éléments de la nav */
+ul.custom-flex {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Détails des éléments de la nav */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* Style global du corps */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #000;
+  background: #ffffff;
+  border-color: #dfdfdf;
+  transition: transform ease-in .4s;
+  overflow: hidden;
+}
+
+/* Détail du style des liens */
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #01b7f2;
+  transition: color 0.5s ease;
+}
+
+/* Style de mise en page */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+
+.nav-tabs .nav-item:first-child .nav-link {
+  background-color: #01b7f2 !important;
+  color: white !important;
+  border-color: #01b7f2 !important;
+}
+.nav-tabs .nav-item .nav-link:hover {
+  background-color: #01b7f2 !important; /* Fond bleu au survol */
+  color: white !important; /* Texte blanc au survol */
+  border-color: #01b7f2 !important; /* Bordure bleue au survol */
+}

@@ -1,0 +1,54 @@
+<section class="section-padding about-us">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-5 col-lg-6">
+        <div class="about-right-side full-height mb-md-80">
+          <div class="about-img full-height">
+            <!-- Afficher le logo du concessionnaire -->
+            <img
+              [src]="logoUrl || defaultLogoUrl"
+              alt="Logo de l'agence"
+              class="agency-user-logo"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-7 col-lg-6">
+        <div class="about-left-side">
+          <div class="section-header">
+            <div class="section-heading">
+              <h3 class="text-custom-black">{{ concessionnaire?.nomGerant }}</h3>
+              <div class="section-description">
+                <p class="text-light-black subheading">{{ concessionnaire?.description }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="details-section">
+            <h4 class="text-custom-black">Informations du Concessionnaire</h4>
+            <p class="text-light-dark"><strong>Email:</strong> {{ concessionnaire?.emailGerant }}</p>
+            <p class="text-light-dark"><strong>Téléphone:</strong> {{ concessionnaire?.telephoneGerant }}</p>
+            <p class="text-light-dark"><strong>Site Web:</strong> {{ concessionnaire?.siteWeb }}</p>
+            <ul class="custom">
+              <li class="text-light-dark">
+                <i class="fas fa-hand-point-right text-custom-blue"></i>
+                <strong>Numéro Tax:</strong> {{ concessionnaire?.numeroTax }}
+              </li>
+              <li class="text-light-dark">
+                <i class="fas fa-hand-point-right text-custom-blue"></i>
+                <strong>Licence Commerciale:</strong> {{ concessionnaire?.licenceCommerciale }}
+              </li>
+            </ul>
+          </div>
+          <div class="details-section">
+            <h4 class="text-custom-black">Informations de l'Utilisateur</h4>
+            <!-- Afficher les informations de l'utilisateur incluses dans ConcessionnaireResponse -->
+            <p class="text-light-dark"><strong>Nom Complet:</strong> {{ utilisateur?.nomComplet }}</p>
+            <p class="text-light-dark"><strong>Email:</strong> {{ utilisateur?.email }}</p>
+            <p class="text-light-dark"><strong>Téléphone:</strong> {{ utilisateur?.telephone }}</p>
+            <p class="text-light-dark"><strong>Adresse:</strong> {{ utilisateur?.adresse }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

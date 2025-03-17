@@ -1,0 +1,74 @@
+<section class="section-padding bg-light-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="listing-top-heading mb-xl-20">
+                    <h6 class="no-margin text-custom-black">Showing {{cruiseblock.length}} Results</h6>
+                    <div class="sort-by">
+                        <span class="text-custom-black fs-14 fw-600">Sort by</span>
+                        <div class="group-form">
+                            <select class="form-control form-control-custom custom-select" nice-select>
+                                <option>A to Z</option>
+                                <option>Z to A</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+            <div class="col-xl-3 col-lg-4 col-md-6" *ngFor="let item of cruiseblock | paginate: { itemsPerPage: 8, currentPage: page }">
+                <div class="cruise-grid mb-xl-30">
+                    <div class="cruise-grid-wrapper bx-wrapper">
+                        <div class="image-sec animate-img">
+                            <a routerLink="/cruise-details/{{item.id}}">
+                                <img [src]="item.image" class="full-width" [alt]="item.title">
+                            </a>
+                        </div>
+                        <div class="cruise-grid-caption padding-20 bg-custom-white p-relative">
+                            <h4 class="title fs-16 no-margin"><a routerLink="/cruise-details/{{item.id}}" class="text-custom-black">{{item.title}}<small class="text-light-dark">{{item.night}} Nights</small></a></h4>
+                            <span class="price"><small>From</small>${{item.price | number:'1.0-0'}}</span>
+                            <div class="feedback">
+                                <div class="ratings">
+                                    <ngb-rating [max]="5" [(rate)]="item.rating" [readonly]="true" class="rating">
+                                        <ng-template let-fill="fill" let-index="index">
+                                            <span class="text-light-white fs-12" [class.text-yellow]="fill === 100"><i class="fas fa-star"></i></span>
+                                        </ng-template>
+                                    </ngb-rating>
+                                </div>
+                                <span class="review fs-12 text-light-white">{{item.reviews.length}} reviews</span>
+                            </div>
+                            <div class="row time">
+                                <div class="date col-6">
+                                    <i class="far fa-clock text-yellow fs-18"></i>
+                                    <div class="text-light-dark fs-12">
+                                        <span class="text-custom-blue">Date</span><br>{{item.cruisedate}}
+                                    </div>
+                                </div>
+                                <div class="departure col-6">
+                                    <i class="fas fa-map-marker-alt text-yellow fs-18"></i>
+                                    <div class="text-light-dark fs-12">
+                                        <span class="text-custom-blue">Departure</span><br>{{item.deplocation}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <a routerLink="/cruise-details/{{item.id}}" class="btn-second btn-small">View</a>
+                                <a routerLink="/booking" class="btn-first btn-submit">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <nav class="pagination_layout section-padding-top">
+                    <ul class="pagination justify-content-center">
+                        <pagination-controls (pageChange)="page = $event"></pagination-controls>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>

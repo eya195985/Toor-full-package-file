@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Full Size"
+    },
+    {
+        "id":2,
+        "title":"Compact"
+    },
+    {
+        "id":3,
+        "title":"Economy"
+    },
+    {
+        "id":4,
+        "title":"Luxury / Premium"
+    },
+    {
+        "id":5,
+        "title":"Mini Car"
+    },
+    {
+        "id":6,
+        "title":"Van / Minivan"
+    },
+    {
+        "id":7,
+        "title":"Exotic / Special"
+    }
+]

@@ -1,0 +1,36 @@
+<section class="section-padding section our-services-sec bg-light-white">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-heading">
+                <h3 class="text-custom-black">Our Services</h3>
+                <div class="section-description">
+                    <p class="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+            <div class="section-btn mb-xl-20">
+                <a routerLink="/booking" class="btn-first btn-small">View All</a>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-6" *ngFor="let item of service | slice:0:4">
+                <div class="service-box p-relative mb-xl-30">
+                    <div class="service-wrapper bg-custom-white bx-wrapper">
+                        <div class="service-img animate-img">
+                            <a [routerLink]="item.link">
+                                <img [src]="item.image" class="image-fit" [alt]="item.title">
+                            </a>
+                        </div>
+                        <div class="service-text padding-15">
+                            <h5><a [routerLink]="item.link" class="text-custom-black">{{item.title}}</a></h5>
+                            <p class="text-light-dark">{{item.text}}</p>
+                            <a [routerLink]="item.link" class="btn-second btn-small">See All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</section>

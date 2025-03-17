@@ -1,0 +1,38 @@
+<section class="section-padding about-us">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-5 col-lg-6">
+                <div class="about-right-side full-height mb-md-80">
+                    <div class="about-img full-height">
+                        <img src="assets/images/about.jpg" class="img-fluid image-fit" alt="img">
+                        <a href="https://www.youtube.com/watch?v=TKnufs85hXk" class="video_btn popup-youtube transform-center">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6">
+                <div class="about-left-side">
+                    <div class="section-header">
+                        <div class="section-heading">
+                            <h3 class="text-custom-black">About Us</h3>
+                            <div class="section-description">
+                            <p class="text-light-black subheading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-light-dark">On the other hand, we denounce with righteous indignation the foult anuals dislike men who are so beguiled and demoralized by the nuhaiicharms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound toen sue; and equal blame belongs to those who fail in their duty.</p>
+                    <ul class="custom">
+                        <!-- Data -->
+                        <li class="text-light-dark" *ngFor="let item of whyus">
+                            <i class="fas fa-hand-point-right text-custom-blue"></i>
+                            {{item.title}}
+                        </li>
+                        <!-- Data -->
+                    </ul>
+                    <a href="/about" class="btn-first btn-submit">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

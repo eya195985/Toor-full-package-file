@@ -1,0 +1,126 @@
+<div class="etape2-form-container" *ngIf="form">
+  <!-- Barre de progression -->
+  <app-progression-bar [progression]="40" [etapeActuelle]="2"></app-progression-bar>
+
+  <h2 class="etape2-form-title">Informations du Vol Aller</h2>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <!-- Numéro de vol -->
+    <label for="numeroVol" class="etape2-form-label">Numéro de vol</label>
+    <input
+      id="numeroVol"
+      type="text"
+      formControlName="numeroVol"
+      class="etape2-form-input"
+      placeholder="Ex: AF123"
+      required
+    />
+
+    <div *ngIf="form.get('numeroVol')?.invalid && form.get('numeroVol')?.touched">
+      <small class="etape2-error" *ngIf="form.get('numeroVol')?.hasError('required')">
+        Le numéro de vol est requis.
+      </small>
+    </div>
+
+    <!-- Nom de la compagnie aérienne -->
+    <label for="nomCompagnieAerienne" class="etape2-form-label">Nom de la compagnie aérienne (optionnel)</label>
+    <input
+      id="nomCompagnieAerienne"
+      type="text"
+      formControlName="nomCompagnieAerienne"
+      class="etape2-form-input"
+      placeholder="Ex: Air France"
+    />
+
+    <!-- Pays de départ -->
+    <label for="paysDepart" class="etape2-form-label">Pays de départ</label>
+    <select id="paysDepart" formControlName="paysDepart" class="etape2-form-input" required>
+      <option value="" disabled>Sélectionnez un pays</option>
+      <option *ngFor="let pays of paysList" [value]="pays.nomPays">{{ pays.nomPays }}</option>
+    </select>
+
+    <!-- Pays d'arrivée -->
+    <label for="paysArrivee" class="etape2-form-label">Pays d'arrivée</label>
+    <select id="paysArrivee" formControlName="paysArrivee" class="etape2-form-input" required>
+      <option value="" disabled>Sélectionnez un pays</option>
+      <option *ngFor="let pays of paysList" [value]="pays.nomPays">{{ pays.nomPays }}</option>
+    </select>
+
+    <!-- Date de départ -->
+    <label for="dateDepart" class="etape2-form-label">Date de départ</label>
+    <input
+      id="dateDepart"
+      type="datetime-local"
+      formControlName="dateDepart"
+      class="etape2-form-input"
+      required
+    />
+
+    <div *ngIf="form.get('dateDepart')?.invalid && form.get('dateDepart')?.touched">
+      <small class="etape2-error" *ngIf="form.get('dateDepart')?.hasError('required')">
+        La date de départ est requise.
+      </small>
+    </div>
+
+    <!-- Date d'arrivée -->
+    <label for="dateArrivee" class="etape2-form-label">Date d'arrivée</label>
+    <input
+      id="dateArrivee"
+      type="datetime-local"
+      formControlName="dateArrivee"
+      class="etape2-form-input"
+      required
+    />
+
+    <div *ngIf="form.get('dateArrivee')?.invalid && form.get('dateArrivee')?.touched">
+      <small class="etape2-error" *ngIf="form.get('dateArrivee')?.hasError('required')">
+        La date d'arrivée est requise.
+      </small>
+    </div>
+
+    <!-- Classe de vol -->
+    <div class="etape2-form-group">
+      <label for="classeVol" class="etape2-form-label">Classe de vol initial</label>
+      <select id="classeVol" formControlName="classeVol" class="etape2-form-input" required>
+        <option value="" disabled>Sélectionnez une classe</option>
+        <option *ngFor="let classe of classesVolList" [ngValue]="classe.idClasseVoyage">
+          {{ classe.nomClasse }}
+        </option>
+      </select>
+    </div>
+
+
+
+    <!-- Escale -->
+    <label for="escale" class="etape2-form-label">Escale</label>
+    <select id="escale" formControlName="escale" class="etape2-form-input" required>
+      <option value="direct">Direct</option>
+      <option value="escale">Avec escale</option>
+    </select>
+
+    <div *ngIf="form.get('escale')?.value === 'escale'">
+      <!-- Bouton pour ajouter une escale -->
+      <button type="button" (click)="ajouterEscale()">Ajouter une escale</button>
+
+      <!-- Liste des pays d'escale -->
+      <div formArrayName="escales_aller">
+        <ng-container *ngFor="let escale of escales; let i = index">
+          <div [formGroupName]="i">
+            <label [attr.for]="'escales_aller_' + i" class="etape2-form-label">Pays d'escale {{ i + 1 }}</label>
+            <select [attr.id]="'escales_aller_' + i" formControlName="pays" class="etape2-form-input" required>
+              <option value="" disabled>Sélectionnez un pays</option>
+              <option *ngFor="let pays of paysList" [value]="pays.idPaysDestination">{{ pays.nomPays }}</option>
+            </select>
+            <button type="button" (click)="supprimerEscale(i)">Supprimer</button>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+
+    <!-- Boutons de navigation -->
+    <div class="etape2-button-container">
+      <button type="button" class="etape2-form-button precedent" (click)="onPrecedent()">Précédent</button>
+      <button type="submit" class="etape2-form-button suivant" >Suivant</button>
+    </div>
+  </form>
+</div>

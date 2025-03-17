@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="section-header">
+    <div class="section-heading">
+      <h3 class="text-custom-black">Gestion des Annonces </h3>
+      <div class="section-description">
+        <p class="text-light-dark">Gérez les Annonces en attente d'approbation.</p>
+      </div>
+    </div>
+  </div>
+
+
+<table class="table" *ngIf="!isLoading">
+  <thead class="custom-thead">
+  <tr>
+    <th>Logo</th>
+    <th>Concessionnaire</th>
+    <th>Voyage</th>
+    <th>Statut</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let annonce of annonces">
+    <td>
+      <div class="avatar">
+        <img [src]="annonce.concessionnaire?.logoUrl || 'assets/default-logo.png'" alt="Logo">
+      </div>
+    </td>
+    <td>{{ annonce.concessionnaire?.nomGerant || 'Non disponible' }}</td>
+    <td>{{ annonce.voyage?.titreVoyage || 'Non disponible' }}</td>
+    <td>
+        <span class="badge-status" [ngClass]="{
+          'badge-warning': annonce.statutAnnonce?.statut === 'en attente',
+          'badge-success': annonce.statutAnnonce?.statut === 'Accepter',
+          'badge-danger': annonce.statutAnnonce?.statut === 'Rejeter',
+          'badge-secondary': annonce.statutAnnonce?.statut === 'Bloquer'
+        }">
+          {{ annonce.statutAnnonce?.statut || 'en attente' }}
+        </span>
+    </td>
+    <td>
+      <button class="btn btn-success" (click)="changeStatus(annonce.idAnnonce, 'Accepter')">Accepter</button>
+      <button class="btn btn-danger" (click)="changeStatus(annonce.idAnnonce, 'Rejeter')">Rejeter</button>
+      <button class="btn btn-warning" (click)="changeStatus(annonce.idAnnonce, 'Bloquer')">Bloquer</button>
+    </td>
+  </tr>
+  </tbody>
+</table>

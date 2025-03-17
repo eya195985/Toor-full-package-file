@@ -1,0 +1,248 @@
+<div class="voyage-form-container">
+  <!-- Barre de progression -->
+  <app-progression-bar [progression]="20" [etapeActuelle]="1"></app-progression-bar>
+
+  <h2 class="voyage-form-title">Étape 1: Informations de Base</h2>
+
+  <form #voyageForm="ngForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <!-- Titre du voyage -->
+      <div class="col-md-6">
+        <label for="titreVoyage" class="voyage-form-label">Titre du voyage</label>
+        <input
+          type="text"
+          id="titreVoyage"
+          name="titreVoyage"
+          class="voyage-form-input"
+          [(ngModel)]="formData.titreVoyage"
+          placeholder="Entrez le titre du voyage"
+          required
+        />
+        <div *ngIf="voyageForm.controls['titreVoyage']?.invalid && voyageForm.controls['titreVoyage']?.touched" class="voyage-error-message">
+          Le titre est requis.
+        </div>
+      </div>
+
+      <!-- Prix -->
+      <div class="col-md-6">
+        <label for="prix" class="voyage-form-label">Prix</label>
+        <input
+          type="number"
+          id="prix"
+          name="prix"
+          class="voyage-form-input"
+          [(ngModel)]="formData.prix"
+          placeholder="Entrez le prix"
+          required
+        />
+        <div *ngIf="voyageForm.controls['prix']?.invalid && voyageForm.controls['prix']?.touched" class="voyage-error-message">
+          Le prix est requis.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Description -->
+      <div class="col-12">
+        <label for="description" class="voyage-form-label">Description</label>
+        <textarea
+          id="description"
+          name="description"
+          class="voyage-form-input"
+          [(ngModel)]="formData.description"
+          rows="4"
+          placeholder="Décrivez votre voyage"
+          required
+        ></textarea>
+        <div *ngIf="voyageForm.controls['description']?.invalid && voyageForm.controls['description']?.touched" class="voyage-error-message">
+          La description est requise.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Durée du voyage -->
+      <div class="col-md-6">
+        <label for="duree" class="voyage-form-label">Durée du voyage (en jours)</label>
+        <input
+          type="number"
+          id="duree"
+          name="duree"
+          class="voyage-form-input"
+          [(ngModel)]="formData.duree"
+          placeholder="Entrez la durée"
+          required
+        />
+        <div *ngIf="voyageForm.controls['duree']?.invalid && voyageForm.controls['duree']?.touched" class="voyage-error-message">
+          La durée est requise.
+        </div>
+      </div>
+
+      <!-- Tranche d'âge -->
+      <div class="col-md-6">
+        <label class="voyage-form-label">Tranche d'âge</label>
+        <div class="voyage-age-range-container">
+          <div class="voyage-slider-container">
+            <input
+              type="range"
+              [(ngModel)]="formData.ageMin"
+              [min]="minAge"
+              [max]="maxAge"
+              [step]="1"
+              (input)="updateMinAge($event)"
+              name="ageMin"
+              required
+            />
+            <input
+              type="range"
+              [(ngModel)]="formData.ageMax"
+              [min]="minAge"
+              [max]="maxAge"
+              [step]="1"
+              (input)="updateMaxAge($event)"
+              name="ageMax"
+              required
+            />
+          </div>
+          <div class="voyage-age-display">
+            <span>{{ formData.ageMin }}</span> - <span>{{ formData.ageMax }}</span>
+          </div>
+        </div>
+        <div *ngIf="voyageForm.controls['ageMin']?.invalid && voyageForm.controls['ageMin']?.touched" class="voyage-error-message">
+          L'âge minimum est requis.
+        </div>
+        <div *ngIf="voyageForm.controls['ageMax']?.invalid && voyageForm.controls['ageMax']?.touched" class="voyage-error-message">
+          L'âge maximum est requis.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Circuit -->
+      <div class="col-md-6">
+        <label class="voyage-form-label">Circuit</label>
+        <div class="voyage-radio-group">
+          <label>
+            <input
+              type="radio"
+              name="circuit"
+              [(ngModel)]="formData.circuit"
+              value="prive"
+              (change)="onCircuitChange()"
+              required
+            />
+            Privé
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="circuit"
+              [(ngModel)]="formData.circuit"
+              value="groupe"
+              (change)="onCircuitChange()"
+              required
+            />
+            En groupe
+          </label>
+        </div>
+        <div *ngIf="voyageForm.controls['circuit']?.invalid && voyageForm.controls['circuit']?.touched" class="voyage-error-message">
+          Le circuit est requis.
+        </div>
+      </div>
+
+      <!-- Guide -->
+      <div class="col-md-6">
+        <label class="voyage-form-label">Guide</label>
+        <div class="voyage-radio-group">
+          <label>
+            <input
+              type="radio"
+              name="guide"
+              [(ngModel)]="formData.guide"
+              value="oui"
+              (change)="onGuideChange()"
+              required
+            />
+            Oui
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="guide"
+              [(ngModel)]="formData.guide"
+              value="non"
+              (change)="onGuideChange()"
+              required
+            />
+            Non
+          </label>
+        </div>
+        <div *ngIf="voyageForm.controls['guide']?.invalid && voyageForm.controls['guide']?.touched" class="voyage-error-message">
+          Le guide est requis.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Taille du groupe -->
+      <div class="col-md-6" *ngIf="formData.circuit === 'groupe'">
+        <label for="taille_groupe" class="voyage-form-label">Taille du groupe</label>
+        <input
+          type="number"
+          id="taille_groupe"
+          name="taille_groupe"
+          class="voyage-form-input"
+          [(ngModel)]="formData.tailleGroupe"
+          placeholder="Entrez la taille du groupe"
+          required
+        />
+        <div *ngIf="voyageForm.controls['tailleGroupe']?.invalid && voyageForm.controls['tailleGroupe']?.touched" class="voyage-error-message">
+          La taille du groupe est requise.
+        </div>
+      </div>
+
+      <!-- Langue du guide -->
+      <div class="col-md-6" *ngIf="formData.guide === 'oui'">
+        <label for="langue_guide" class="voyage-form-label">Langue du guide</label>
+        <select
+          id="langue_guide"
+          name="langue_guide"
+          class="voyage-form-input"
+          [(ngModel)]="formData.langueGuide"
+          required
+        >
+          <option *ngFor="let langue of listeLangues" [value]="langue">{{ langue }}</option>
+        </select>
+        <div *ngIf="voyageForm.controls['langueGuide']?.invalid && voyageForm.controls['langueGuide']?.touched" class="voyage-error-message">
+          La langue du guide est requise.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Type de voyage -->
+      <div class="col-12">
+        <label for="typeVoyage" class="voyage-form-label">Type de voyage</label>
+        <select
+          id="typeVoyage"
+          name="typeVoyage"
+          class="voyage-form-input"
+          [(ngModel)]="formData.idTypeVoyage"
+          required
+        >
+          <option *ngFor="let type of typesVoyage" [value]="type.idTypeVoyage">{{ type.nomTypeVoyage }}</option>
+        </select>
+        <div *ngIf="voyageForm.controls['idTypeVoyage']?.invalid && voyageForm.controls['idTypeVoyage']?.touched" class="voyage-error-message">
+          Le type de voyage est requis.
+        </div>
+      </div>
+    </div>
+
+    <!-- Boutons -->
+    <div class="voyage-button-container">
+      <button type="submit" class="voyage-form-button suivant"   >
+        Suivant
+      </button>
+    </div>
+  </form>
+</div>
