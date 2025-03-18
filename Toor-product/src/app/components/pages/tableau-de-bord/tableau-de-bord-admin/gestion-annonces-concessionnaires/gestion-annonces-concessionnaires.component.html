@@ -30,7 +30,7 @@
     <td>{{ annonce.voyage?.titreVoyage || 'Non disponible' }}</td>
     <td>
         <span class="badge-status" [ngClass]="{
-          'badge-warning': annonce.statutAnnonce?.statut === 'en attente',
+          'badge-warning': annonce.statutAnnonce?.statut === 'En attente',
           'badge-success': annonce.statutAnnonce?.statut === 'Accepter',
           'badge-danger': annonce.statutAnnonce?.statut === 'Rejeter',
           'badge-secondary': annonce.statutAnnonce?.statut === 'Bloquer'

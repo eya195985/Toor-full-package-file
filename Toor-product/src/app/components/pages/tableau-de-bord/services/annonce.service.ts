@@ -29,7 +29,7 @@ export class AnnonceService {
   constructor(private http: HttpClient) {}
 
   getAnnoncesEnAttente(): Observable<Annonce[]> {
-    return this.http.get<Annonce[]>(`${this.apiUrl}/en-attente`);
+    return this.http.get<Annonce[]>(`${this.apiUrl}/En-attente`);
   }
 
   updateAnnonceStatus(idAnnonce: number, status: string): Observable<any> {
