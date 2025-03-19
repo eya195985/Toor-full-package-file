@@ -13,10 +13,13 @@ import { AuthInterceptor } from './Token/Authlntercepter';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    CompteComponent
+    CompteComponent,
+
+
 
 
 

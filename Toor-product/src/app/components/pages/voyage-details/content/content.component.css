@@ -1,0 +1,263 @@
+.listing-meta-sec {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.listing-meta-sec h4 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.listing-meta-sec p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #777;
+}
+
+.custom.amenities {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.custom.amenities li {
+  flex: 0 0 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #007bff;
+}
+
+.icon-box span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.listing-meta-sec {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.custom-accordion {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.itinerary-details {
+  padding: 20px;
+}
+
+.services-section, .transports-section, .nourriture-section {
+  margin-bottom: 20px;
+}
+
+.included-icon {
+  color: green;
+  margin-right: 5px;
+}
+.services-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.category-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.included-icon {
+  color: green;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.excluded-icon {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.included-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.included-list li {
+  margin-bottom: 10px;
+}
+
+.included-list strong {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+.services-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.category-icon {
+  font-size: 1.2rem; /* Reduced font size for finer icons */
+  margin-right: 8px; /* Slightly reduced margin */
+  border-radius: 50%;
+  padding: 4px; /* Reduced padding */
+}
+
+.included-icon {
+  color: green;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.excluded-icon {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.included-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.included-list li {
+  margin-bottom: 10px;
+}
+
+.included-list strong {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Custom styles for the accordion header */
+.custom-accordion .card-header {
+  background-color: white; /* Default background color when collapsed */
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Style for the expanded accordion header */
+.custom-accordion .card-header.collapsed {
+  background-color: white; /* Background color when collapsed */
+}
+
+.custom-accordion .card-header:not(.collapsed) {
+  background-color: #f0f0f0; /* Light gray background color when expanded */
+}
+
+/* Override the btn-link style to remove the blue background */
+.custom-accordion .card .card-header .btn-link {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  align-items: center;
+  padding: 10px 15px;
+  width: 100%;
+  background: #f0f0f0; /* Light gray background color when expanded */
+  color: #000; /* Change text color to black for better contrast */
+  cursor: pointer;
+}
+
+.custom-accordion .card-header button:focus {
+  box-shadow: none;
+}
+
+
+
+
+
+
+.quick-quote {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.travel-details {
+  margin-bottom: 20px;
+}
+
+.date-display, .price-display {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.date-display i {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.travel-date {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.price-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin-right: 8px;
+}
+
+.price-value {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2d3e52;
+}
+
+.btn-first.btn-submit {
+  background-color: #01b7f2;
+  color: white;
+  border-color:#01b7f2;
+  transition: background-color 0.3s ease;
+}
+
+.btn-first.btn-submit:hover {
+  background-color: white;
+   color:  #01b7f2;
+
+}
+
+
+
+.voyage-title h2 {
+
+
+  color: #2d3e52; /* Couleur du texte */
+
+
+}
+
+
+
+

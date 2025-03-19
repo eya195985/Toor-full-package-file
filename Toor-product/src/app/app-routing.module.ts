@@ -83,6 +83,9 @@ const routes: Routes = [
             data: { breadcrumb: "Tableau de Bord Client" }
           },
 
+// detail voyage
+
+  { path: 'voyage-details/:id', loadChildren: () => import('./components/pages/voyage-details/voyage-details.module').then(m => m.VoyageDetailsModule), data: { breadcrumb: "voyage Details" } },
 
   // Faqs
   { path: 'faqs', loadChildren: () => import('./components/pages/faqs/faqs.module').then(m => m.FaqsModule), data: { breadcrumb: "FAQ's" } },
